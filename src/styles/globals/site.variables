@@ -1,0 +1,7 @@
+@fontName          : 'Fira Sans';
+@fontSize          : 16px;
+@emSize            : 17px;
+@normal            : 300;
+@bold              : 400;
+@googleProtocol    : 'https://';
+@googleFontRequest : 'Fira+Mono|Fira+Sans:300,300i,400';

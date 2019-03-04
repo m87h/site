@@ -1,0 +1,152 @@
+{
+	"basics": {
+		"name": "Martin Häger",
+		"label": "Software Engineer",
+		"picture": "../assets/images/photo.jpg",
+		"email": "martin.haeger@gmail.com",
+		"phone": "+46 (0) 723 071630",
+		"website": "https://kvadevack.se",
+		"location": {
+			"address": "Polhemsgatan 8",
+			"postalCode": "46130",
+			"city": "Trollhättan",
+			"countryCode": "SE"
+		},
+		"profiles":[
+			{
+				"network": "GitHub",
+				"username": "kvadevack",
+				"url": "https://github.com/kvadevack"
+			}
+		]
+	},
+	"work": [
+		{
+			"company": "AUTOCOM",
+			"position": "DevOps Engineer",
+			"website": "https://autocom.se",
+			"startDate": "2015-09-01",
+			"summary": "Architected a cloud platform and delivery pipeline for vehicle telematics and remote diagnostics.",
+			"highlights": []
+		},
+		{
+			"company": "Madington",
+			"position": "Web Developer",
+			"website": "https://madington.com",
+			"startDate": "2012-02-21",
+			"endDate": "2015-09-01",
+			"summary": "Developed engaging mobile creatives using HTML5 device technologies.",
+			"highlights": []
+		},
+		{
+			"company": "Netlight",
+			"position": "Web Developer",
+			"website": "https://www.netlight.com",
+			"startDate": "2010-09-01",
+			"endDate": "2010-11-01",
+			"summary": "Backend developer on E24 and Verdens Gang.",
+			"highlights": []
+		},
+		{
+			"company": "Burt",
+			"position": "Web Developer",
+			"website": "https://burtcorp.com",
+			"startDate": "2010-01-01",
+			"endDate": "2010-09-01",
+			"summary": "Developed a Big Data pipeline for ad metrics, using Python, Java, and Ruby on Rails.",
+			"highlights": []
+		},
+		{
+			"company": "Chalmers Teknologkonsulter",
+			"position": "Web Developer",
+			"website": "https://ctk.se",
+			"startDate": "2007-04-01",
+			"endDate": "2008-12-01",
+			"summary": "Developed a number of bespoke software applications. Also held roles in sales, business development, and recruitment.",
+			"highlights": []
+		}
+	],
+	"education": [
+		{
+			"institution": "Chalmers University of Technology",
+			"area": "Software Engineering / Computer Science",
+			"studyType": "M.Sc.",
+			"startDate": "2008-09-01",
+			"endDate": "2010-06-01"
+		},
+		{
+			"institution": "Chalmers University of Technology",
+			"_institution_logo": "chalmers.png",
+			"area": "Computer Science",
+			"studyType": "B.Sc.",
+			"startDate": "2005-09-01",
+			"endDate": "2008-06-01"
+		}
+	],
+	"awards": [
+		{
+			"title": "John Ericsson Award for Academic Excellence",
+			"date": "2011-05-18",
+			"awarder": "Chalmers University of Technology",
+			"summary": "Awarded to the twenty top performing students who graduated in 2010."
+		}
+	],
+	"skills": [
+		{
+			"name": "DevOps",
+			"level": "Ten years of professional experience managing Linux servers, and building cloud infrastructure, ",
+			"keywords": [
+				"Linux",
+				"Bash",
+				"AWS",
+				"Docker",
+				"Jenkins",
+				"Maven",
+				"Go",
+				"Git"
+			]
+		},
+		{
+			"name": "Web Development",
+			"level": "Ten years of professional full-stack experience.",
+			"keywords": [
+				"JavaScript / ECMAScript",
+				"CSS",
+				"Java",
+				"Python",
+				"React",
+				"SQL",
+				"Ruby",
+				"PHP",
+				"Elasticsearch"
+			]
+		},
+		{
+			"name": "Native Development",
+			"level": "Two years of professional experience developing apps.",
+			"keywords": [
+				"C",
+				"C++",
+				"CMake",
+				"iOS",
+				"Android",
+				"OpenGL",
+				"SDL"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "Swedish",
+			"fluency": "Native Speaker"
+		},
+		{
+			"language": "English",
+			"fluency": "Master"
+		},
+		{
+			"language": "German",
+			"fluency": "Basic User"
+		}
+	]
+}
