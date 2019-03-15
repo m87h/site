@@ -94,7 +94,7 @@
 	"skills": [
 		{
 			"name": "DevOps",
-			"level": "Ten years of professional experience managing Linux servers, and building cloud infrastructure, ",
+			"level": "Ten years of professional experience managing Linux servers, CI/CD pipelines, and cloud infrastructure.",
 			"keywords": [
 				"Linux",
 				"Bash",
