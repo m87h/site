@@ -3,6 +3,8 @@ import { StaticQuery, graphql } from 'gatsby';
 import { Segment } from 'semantic-ui-react';
 import moment from 'moment';
 
+import { version } from '../../package';
+
 const Footer = ({ ...props }) => (
 	<StaticQuery
 		query={graphql`
@@ -38,7 +40,7 @@ const Footer = ({ ...props }) => (
 					<p>&copy; {author}, {copyrightRange}. Some rights reserved. The <a href={repositoryUrl}>
 						site source</a> is available under the MIT license.</p>
 					<p>
-						Built with <a href="https://graphql.org/">GraphQL</a>
+						v{version} (<a href={`${repositoryUrl}/blob/master/CHANGELOG.md`}>changelog</a>). Built with <a href="https://graphql.org/">GraphQL</a>
 						, <a href="https://reactjs.org/">React</a> and <a href="https://semantic-ui.com/">Semantic UI</a>.
 					</p>
 				</Segment>
