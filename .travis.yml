@@ -11,6 +11,7 @@ script:
   - npm run test
 after_success:
   - npm run release
+  - npx codecov
 before_deploy:
   - npm run build
 deploy:

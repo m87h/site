@@ -26,4 +26,6 @@ module.exports = {
 		'<rootDir>/src/',
 		'<rootDir>/test/unit/',
 	],
+	coverageDirectory: '<rootDir>/coverage/',
+	collectCoverage: true,
 };
