@@ -10,17 +10,12 @@ script:
   - npm run spellcheck
   - npm run test
 after_success:
-  - npm run release
   - npx codecov
 before_deploy:
   - npm run build
 deploy:
-  provider: pages
-  local-dir: public
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  repo: kvadevack/kvadevack.github.io
-  target-branch: master
-  fqdn: kvadevack.se
+  provider: script
+  script: npx semantic-release
+  skip_cleanup: true
   on:
     branch: master
