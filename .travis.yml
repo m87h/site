@@ -11,8 +11,6 @@ script:
   - npm run test
 after_success:
   - npx codecov
-before_deploy:
-  - npm run build
 deploy:
   provider: script
   script: npx semantic-release

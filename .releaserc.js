@@ -1,4 +1,5 @@
 const ghpages = require('gh-pages');
+const execa = require('execa');
 
 module.exports = {
 	plugins: [
@@ -11,6 +12,7 @@ module.exports = {
 		}],
 		'@semantic-release/github',
 		{
+			prepare: () => execa('npm', ['run', 'build'], { stdio: 'inherit' }),
 			publish: () => ghpages.publish('public', {
 				repo: `https://${process.env.GITHUB_TOKEN}@github.com/kvadevack/kvadevack.github.io.git`,
 				silent: true,
