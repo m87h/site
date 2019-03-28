@@ -6,9 +6,7 @@ cache:
   directories:
     - ~/.cache
 script:
-  - npm run lint
-  - npm run spellcheck
-  - npm run test
+  - npx run-p lint spellcheck test
 after_success:
   - npx codecov
 deploy:
