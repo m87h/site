@@ -5,6 +5,12 @@ cache:
   npm: true
   directories:
     - ~/.cache
+addons:
+  apt:
+    packages:
+      - libgconf-2-4
+services:
+  - xvfb
 install: npm install
 before_script: npx greenkeeper-lockfile-update
 script:
