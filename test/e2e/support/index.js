@@ -1,2 +1,2 @@
 import 'gatsby-cypress/commands';
-import 'cypress-testing-library/add-commands';
+import '@testing-library/cypress/add-commands';
