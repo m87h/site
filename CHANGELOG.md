@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/kvadevack/site/compare/v1.0.3...v1.0.4) (2019-06-26)
+
+
+### Performance Improvements
+
+* **fonts:** use font-display and preconnect for Google Fonts ([5271922](https://github.com/kvadevack/site/commit/5271922))
+
 ## [1.0.3](https://github.com/kvadevack/site/compare/v1.0.2...v1.0.3) (2019-06-26)
 
 
