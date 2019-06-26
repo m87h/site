@@ -11,7 +11,10 @@ module.exports = {
 		['@semantic-release/git', {
 			assets: ['CHANGELOG.md', 'package.json', 'package-lock.json']
 		}],
-		'@semantic-release/github',
+		['@semantic-release/github', {
+			successComment: false,
+			releasedLabels: false,
+		}],
 		{
 			prepare: () => execa('npm', ['run', 'build'], { stdio: 'inherit' }),
 			publish: () => promisify(ghpages.publish)('public', {
