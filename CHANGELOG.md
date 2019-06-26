@@ -1,3 +1,16 @@
+## [1.0.3](https://github.com/kvadevack/site/compare/v1.0.2...v1.0.3) (2019-06-26)
+
+
+### Bug Fixes
+
+* **package:** update gatsby from 2.10.0 to 2.10.5 ([b9a492a](https://github.com/kvadevack/site/commit/b9a492a))
+* **package:** update gatsby-image from 2.2.1 to 2.2.3 ([2264bf3](https://github.com/kvadevack/site/commit/2264bf3))
+* **package:** update gatsby-plugin-feed from 2.3.0 to 2.3.1 ([aada1da](https://github.com/kvadevack/site/commit/aada1da))
+* **package:** update gatsby-remark-images from 3.1.0 to 3.1.2 ([4e325be](https://github.com/kvadevack/site/commit/4e325be))
+* **package:** update gatsby-remark-responsive-iframe from 2.2.0 to 2.2.1 ([4fcf48a](https://github.com/kvadevack/site/commit/4fcf48a))
+* **package:** update gatsby-source-filesystem from 2.1.0 to 2.1.1 ([cbc203a](https://github.com/kvadevack/site/commit/cbc203a))
+* **package:** update mermaid from 8.0.0 to 8.1.0 ([1e957b6](https://github.com/kvadevack/site/commit/1e957b6))
+
 ## [1.0.2](https://github.com/kvadevack/site/compare/v1.0.1...v1.0.2) (2019-06-24)
 
 
