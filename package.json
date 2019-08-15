@@ -53,7 +53,7 @@
 		"semantic-ui-react": "^0.87.2"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.4.5",
+		"@babel/core": "^7.5.5",
 		"@semantic-release/changelog": "^3.0.4",
 		"@semantic-release/git": "^7.0.13",
 		"@testing-library/cypress": "^4.0.4",
