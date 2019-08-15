@@ -1,3 +1,31 @@
+## [1.0.5](https://github.com/kvadevack/site/compare/v1.0.4...v1.0.5) (2019-08-15)
+
+
+### Bug Fixes
+
+* **package:** update gatsby from 2.10.5 to 2.13.64 ([6c7432e](https://github.com/kvadevack/site/commit/6c7432e))
+* **package:** update gatsby-image from 2.2.3 to 2.2.8 ([0a0dc3c](https://github.com/kvadevack/site/commit/0a0dc3c))
+* **package:** update gatsby-plugin-feed from 2.3.1 to 2.3.6 ([e7e48c2](https://github.com/kvadevack/site/commit/e7e48c2))
+* **package:** update gatsby-plugin-less from 2.1.0 to 2.1.2 ([3f5216b](https://github.com/kvadevack/site/commit/3f5216b))
+* **package:** update gatsby-plugin-manifest from 2.2.0 to 2.2.5 ([299d96a](https://github.com/kvadevack/site/commit/299d96a))
+* **package:** update gatsby-plugin-offline from 2.2.0 to 2.2.6 ([52062e6](https://github.com/kvadevack/site/commit/52062e6))
+* **package:** update gatsby-plugin-react-helmet from 3.1.0 to 3.1.3 ([8ed5458](https://github.com/kvadevack/site/commit/8ed5458))
+* **package:** update gatsby-plugin-robots-txt from 1.4.0 to 1.5.0 ([91714f6](https://github.com/kvadevack/site/commit/91714f6))
+* **package:** update gatsby-plugin-sharp from 2.2.1 to 2.2.11 ([e51734a](https://github.com/kvadevack/site/commit/e51734a))
+* **package:** update gatsby-plugin-sitemap from 2.2.0 to 2.2.6 ([f1cbe1c](https://github.com/kvadevack/site/commit/f1cbe1c))
+* **package:** update gatsby-remark-copy-linked-files from 2.1.0 to 2.1.6 ([b99c278](https://github.com/kvadevack/site/commit/b99c278))
+* **package:** update gatsby-remark-images from 3.1.2 to 3.1.11 ([ba5a7bd](https://github.com/kvadevack/site/commit/ba5a7bd))
+* **package:** update gatsby-remark-prismjs from 3.3.0 to 3.3.5 ([389a34f](https://github.com/kvadevack/site/commit/389a34f))
+* **package:** update gatsby-remark-responsive-iframe from 2.2.1 to 2.2.4 ([7739b8a](https://github.com/kvadevack/site/commit/7739b8a))
+* **package:** update gatsby-source-filesystem from 2.1.1 to 2.1.9 ([240573c](https://github.com/kvadevack/site/commit/240573c))
+* **package:** update gatsby-transformer-remark from 2.5.0 to 2.6.14 ([b273620](https://github.com/kvadevack/site/commit/b273620))
+* **package:** update gatsby-transformer-sharp from 2.2.0 to 2.2.6 ([db38e1f](https://github.com/kvadevack/site/commit/db38e1f))
+* **package:** update mermaid from 8.1.0 to 8.2.3 ([dc9b6e7](https://github.com/kvadevack/site/commit/dc9b6e7))
+* **package:** update prismjs from 1.16.0 to 1.17.1 ([ace81ce](https://github.com/kvadevack/site/commit/ace81ce))
+* **package:** update react from 16.8.6 to 16.9.0 ([025e653](https://github.com/kvadevack/site/commit/025e653))
+* **package:** update react-dom from 16.8.6 to 16.9.0 ([3bd5266](https://github.com/kvadevack/site/commit/3bd5266))
+* **package:** update semantic-ui-react from 0.87.2 to 0.87.3 ([fa0546b](https://github.com/kvadevack/site/commit/fa0546b))
+
 ## [1.0.4](https://github.com/kvadevack/site/compare/v1.0.3...v1.0.4) (2019-06-26)
 
 
