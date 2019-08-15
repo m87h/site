@@ -55,7 +55,7 @@
 	"devDependencies": {
 		"@babel/core": "^7.5.5",
 		"@semantic-release/changelog": "^3.0.4",
-		"@semantic-release/git": "^7.0.13",
+		"@semantic-release/git": "^7.0.16",
 		"@testing-library/cypress": "^4.0.4",
 		"@testing-library/jest-dom": "^4.0.0",
 		"@testing-library/react": "^9.0.1",
