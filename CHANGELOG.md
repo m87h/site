@@ -1,3 +1,11 @@
+## [1.0.6](https://github.com/kvadevack/site/compare/v1.0.5...v1.0.6) (2019-08-15)
+
+
+### Bug Fixes
+
+* **content:** use better photo ([d8e1ebe](https://github.com/kvadevack/site/commit/d8e1ebe))
+* **resume:** update address to current ([70359be](https://github.com/kvadevack/site/commit/70359be))
+
 ## [1.0.5](https://github.com/kvadevack/site/compare/v1.0.4...v1.0.5) (2019-08-15)
 
 
