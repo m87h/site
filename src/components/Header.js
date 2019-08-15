@@ -18,9 +18,9 @@ const Header = () => (
 					}
 				}
 
-				avatar: file(relativePath: { eq: "images/avatar.png" }) {
+				avatar: file(relativePath: { eq: "images/avatar.jpg" }) {
 					childImageSharp {
-						fluid(maxWidth: 398) {
+						fluid(maxWidth: 398, quality: 100) {
 							...GatsbyImageSharpFluid_noBase64
 						}
 					}
@@ -37,7 +37,7 @@ const Header = () => (
 			);
 
 			return (
-				<Card raised fluid>
+				<Card raised fluid style={{ overflow: 'hidden' }}>
 					<Link to='/'>
 						<Img className='mobile hidden' fluid={avatar.childImageSharp.fluid} />
 					</Link>
