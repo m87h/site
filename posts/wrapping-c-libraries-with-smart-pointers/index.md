@@ -5,7 +5,7 @@ tags: ["programming","c++"]
 ---
 
 In this post, we will look at how smart pointers can be used to implement a RAII interface to C libraries. This is the
-basis for my [SDL2 wrapper](https://github.com/elebytes/sdl2xx). Using this method, we don't have to write wrapper classes.<!-- jump -->
+basis for my [SDL2 wrapper](https://github.com/kvadevack/sdl2xx). Using this method, we don't have to write wrapper classes.<!-- jump -->
 
 SDL uses the common C design pattern of [opaque types](https://en.wikipedia.org/wiki/Opaque_data_type), in which the
 implementation details of a type are hidden through use of [forward declaration](https://en.wikipedia.org/wiki/Forward_declaration).
