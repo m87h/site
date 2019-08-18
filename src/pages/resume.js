@@ -58,6 +58,11 @@ export default () => (
 				))}
 			</Language.Group>
 			<Divider />
+
+			<Header as='h2'>About</Header>
+			<p>{resume.basics.summary}</p>
+			<Divider />
+
 			<p>
 				<em>This resume is also available in <a href="/resume.pdf">PDF format</a>.</em>
 			</p>
