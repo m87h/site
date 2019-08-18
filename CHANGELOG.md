@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/kvadevack/site/compare/v1.0.6...v1.1.0) (2019-08-18)
+
+
+### Bug Fixes
+
+* **dom:** use new react-helmet syntax and ensure all head tags are unique ([7b17f9a](https://github.com/kvadevack/site/commit/7b17f9a))
+* **posts/nintendo-switch-virtual-keyboard:** meaningful alts ([33f4992](https://github.com/kvadevack/site/commit/33f4992))
+* **posts/wrapping-c-libraries-with-smart-pointers:** update GitHub URL to reflect transferred repository ([a29c2fc](https://github.com/kvadevack/site/commit/a29c2fc))
+
+
+### Features
+
+* **posts:** new post "How This Site Gets Built" ([84f9f12](https://github.com/kvadevack/site/commit/84f9f12))
+
 ## [1.0.6](https://github.com/kvadevack/site/compare/v1.0.5...v1.0.6) (2019-08-15)
 
 
