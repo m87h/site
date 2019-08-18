@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/kvadevack/site/compare/v1.1.1...v1.2.0) (2019-08-18)
+
+
+### Features
+
+* **resume:** about/summary ([16fbf28](https://github.com/kvadevack/site/commit/16fbf28))
+
 ## [1.1.1](https://github.com/kvadevack/site/compare/v1.1.0...v1.1.1) (2019-08-18)
 
 
