@@ -20,47 +20,23 @@ const SEO = ({ description, lang, meta, keywords, title }) => (
 			const metaDescription = description || site.siteMetadata.description;
 			return (
 				<Helmet
-					htmlAttributes={{ lang }}
-					title={title}
 					titleTemplate={`%s | ${site.siteMetadata.title}`}
-					meta={
-						[
-							{
-								name: 'description',
-								content: metaDescription
-							},
-							{
-								property: 'og:title',
-								content: title
-							},
-							{
-								property: 'og:description',
-								content: metaDescription
-							},
-							{
-								property: 'og:type',
-								content: 'website'
-							},
-							{
-								name: 'twitter:card',
-								content: 'summary'
-							},
-							{
-								name: 'twitter:creator',
-								content: site.siteMetadata.author
-							},
-							{
-								name: 'twitter:title',
-								content: title
-							},
-							{
-								name: 'twitter:description',
-								content: metaDescription
-							}
-						]
-							.concat(keywords.length > 0 ? { name: 'keywords', content: keywords.join(', ') } : [])
-							.concat(meta)}
-				/>
+				>
+					<html lang={lang} />
+					<title>{title}</title>
+					<meta name="description" content={metaDescription} />
+					<meta name="og:title" content={title} />
+					<meta name="og:description" content={metaDescription} />
+					<meta name="og:type" content="website" />
+					<meta name="twitter:card" content="summary" />
+					<meta name="twitter:creator" content={site.siteMetadata.author} />
+					<meta name="twitter:title" content={title} />
+					<meta name="twitter:description" content={metaDescription} />
+					{keywords.length > 0 && <meta name="keywords" content={keywords.join(', ')} />}
+					{meta.map(({ name, content }, i) => (
+						<meta key={i} name={name} content={content} />
+					))}
+				</Helmet>
 			);
 		}}
 	/>
