@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/kvadevack/site/compare/v1.1.0...v1.1.1) (2019-08-18)
+
+
+### Bug Fixes
+
+* **resume:** add some technologies ([b283859](https://github.com/kvadevack/site/commit/b283859))
+* **resume:** show GitHub URL for print and add a link to the resume ([45857a5](https://github.com/kvadevack/site/commit/45857a5))
+
 # [1.1.0](https://github.com/kvadevack/site/compare/v1.0.6...v1.1.0) (2019-08-18)
 
 
