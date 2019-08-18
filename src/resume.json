@@ -15,8 +15,11 @@
 		"profiles":[
 			{
 				"network": "GitHub",
-				"username": "kvadevack",
 				"url": "https://github.com/kvadevack"
+			},
+			{
+				"network": "Resume (Latest Version)",
+				"url": "https://kvadevack.se/resume"
 			}
 		]
 	},
