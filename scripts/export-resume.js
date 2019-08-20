@@ -36,7 +36,8 @@ async function main (input, output) {
 			format: 'Letter',
 			margin: {
 				top: '1cm',
-			} });
+			}
+		});
 		console.timeEnd(output);
 	} catch (e) {
 		console.error(e);
