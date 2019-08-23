@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/kvadevack/site/compare/v1.2.0...v1.2.1) (2019-08-23)
+
+
+### Bug Fixes
+
+* **package:** update semantic-ui-react to version 0.88.0 ([357c82a](https://github.com/kvadevack/site/commit/357c82a))
+
 # [1.2.0](https://github.com/kvadevack/site/compare/v1.1.1...v1.2.0) (2019-08-18)
 
 
