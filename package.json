@@ -57,7 +57,7 @@
 		"@semantic-release/changelog": "^3.0.4",
 		"@semantic-release/git": "^7.0.16",
 		"@testing-library/cypress": "^5.0.0",
-		"@testing-library/jest-dom": "^4.0.0",
+		"@testing-library/jest-dom": "^5.0.0",
 		"@testing-library/react": "^9.1.1",
 		"babel-core": "^7.0.0-bridge.0",
 		"babel-eslint": "^10.0.2",
