@@ -26,10 +26,17 @@
 	},
 	"work": [
 		{
+			"company": "Novarto",
+			"position": "Senior Developer",
+			"website": "https://novarto.se",
+			"startDate": "2020-01-13"
+		},
+		{
 			"company": "AUTOCOM",
 			"position": "DevOps Engineer",
 			"website": "https://autocom.se",
 			"startDate": "2015-09-01",
+			"endDate": "2020-01-10",
 			"summary": "Architected a cloud platform and delivery pipeline for vehicle telematics and remote diagnostics.",
 			"highlights": []
 		},
