@@ -1,3 +1,13 @@
+## [1.2.2](https://github.com/kvadevack/site/compare/v1.2.1...v1.2.2) (2020-02-08)
+
+
+### Bug Fixes
+
+* **package:** update gatsby from 2.13.64 to 2.19.12 ([1f61e0d](https://github.com/kvadevack/site/commit/1f61e0dc9c6cf31b673059ecf4bd1d2d9ccd2419))
+* **package:** update gatsby-plugin-less from 2.1.2 to 3.0.19 ([ed78af8](https://github.com/kvadevack/site/commit/ed78af8c1be570954e1b7f77c0260ca32bf62df9))
+* **package:** update gatsby-plugin-offline from 2.2.10 to 3.0.34 ([13f0ac1](https://github.com/kvadevack/site/commit/13f0ac11292ff96ba22a5f266d2f76646e6923e9))
+* **package:** update gatsby-remark-embed-video from 1.7.1 to 2.0.1 ([ad68663](https://github.com/kvadevack/site/commit/ad68663094ff0a187e07698b9f5fa2c8ea7c84da))
+
 ## [1.2.1](https://github.com/kvadevack/site/compare/v1.2.0...v1.2.1) (2019-08-23)
 
 
