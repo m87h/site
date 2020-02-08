@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/kvadevack/site/compare/v1.2.2...v1.2.3) (2020-02-08)
+
+
+### Bug Fixes
+
+* **resume:** update with new position ([376322c](https://github.com/kvadevack/site/commit/376322cf8d3a5cd036a6184086eed436f34d5cc1))
+
 ## [1.2.2](https://github.com/kvadevack/site/compare/v1.2.1...v1.2.2) (2020-02-08)
 
 
