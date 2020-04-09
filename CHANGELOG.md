@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/kvadevack/site/compare/v1.2.3...v1.2.4) (2020-04-09)
+
+
+### Bug Fixes
+
+* **package:** update react-helmet to version 6.0.0 ([7d952f0](https://github.com/kvadevack/site/commit/7d952f0fda04213094771a0b963d889d2626459c))
+
 ## [1.2.3](https://github.com/kvadevack/site/compare/v1.2.2...v1.2.3) (2020-02-08)
 
 
