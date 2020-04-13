@@ -75,7 +75,7 @@
 		"eslint-plugin-react": "^7.19.0",
 		"eslint-plugin-standard": "^4.0.1",
 		"execa": "^4.0.0",
-		"gatsby-cypress": "^0.2.4",
+		"gatsby-cypress": "^0.3.1",
 		"generator-license": "^5.4.0",
 		"gh-pages": "^2.1.1",
 		"greenkeeper-lockfile": "^1.15.1",
