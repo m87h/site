@@ -1,3 +1,14 @@
+## [1.2.5](https://github.com/kvadevack/site/compare/v1.2.4...v1.2.5) (2020-04-13)
+
+
+### Bug Fixes
+
+* **package:** update gatsby from 2.19.12 to 2.20.18 ([0d3e3b4](https://github.com/kvadevack/site/commit/0d3e3b415f93eb371581442ae42fb9753a39db24))
+* **package:** update gatsby-image from 2.2.40 to 2.3.2 ([a0ac458](https://github.com/kvadevack/site/commit/a0ac4588a840351e3eab6adca76057fc62ce8f85))
+* **package:** update gatsby-plugin-feed from 2.3.27 to 2.4.1 ([fb096ec](https://github.com/kvadevack/site/commit/fb096ec2e55ab65e8dcc03399a355a1ffe63e879))
+* **package:** update gatsby-plugin-less from 3.0.19 to 3.1.1 ([421d7c4](https://github.com/kvadevack/site/commit/421d7c49585dc405502dff059d752ba59cb36ba1))
+* **package:** update gatsby-plugin-manifest from 2.2.5 to 2.3.3 ([7d9e07e](https://github.com/kvadevack/site/commit/7d9e07e648f8c0459058124f62f263abfb99d251))
+
 ## [1.2.4](https://github.com/kvadevack/site/compare/v1.2.3...v1.2.4) (2020-04-09)
 
 
