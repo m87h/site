@@ -12,10 +12,8 @@ addons:
 services:
   - xvfb
 install: npm install
-before_script: npx greenkeeper-lockfile-update
 script:
   - npx run-p lint spellcheck test
-after_script: npx greenkeeper-lockfile-upload
 after_success:
   - npx codecov
 deploy:

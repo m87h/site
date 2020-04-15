@@ -78,7 +78,6 @@
 		"gatsby-cypress": "^0.3.1",
 		"generator-license": "^5.4.0",
 		"gh-pages": "^2.1.1",
-		"greenkeeper-lockfile": "^1.15.1",
 		"identity-obj-proxy": "^3.0.0",
 		"jest": "^25.1.0",
 		"jsonresume-theme-rocketspacer": "git+https://github.com/kvadevack/jsonresume-theme-rocketspacer.git",
