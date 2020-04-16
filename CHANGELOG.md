@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/kvadevack/site/compare/v1.2.6...v1.2.7) (2020-04-16)
+
+
+### Bug Fixes
+
+* upgrade cypress from 4.3.0 to 4.4.0 ([1a14158](https://github.com/kvadevack/site/commit/1a14158e34575491c03c935e457c36a703908e6c))
+
 ## [1.2.6](https://github.com/kvadevack/site/compare/v1.2.5...v1.2.6) (2020-04-16)
 
 
