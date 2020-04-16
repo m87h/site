@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/kvadevack/site/compare/v1.2.5...v1.2.6) (2020-04-16)
+
+
+### Bug Fixes
+
+* package.json, package-lock.json & .snyk to reduce vulnerabilities ([8603c96](https://github.com/kvadevack/site/commit/8603c967447b856172cf55f38790ad811dc5a71b))
+
 ## [1.2.5](https://github.com/kvadevack/site/compare/v1.2.4...v1.2.5) (2020-04-13)
 
 
