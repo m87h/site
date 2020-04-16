@@ -68,7 +68,7 @@
 		"babel-plugin-remove-test-ids": "^1.1.0",
 		"babel-preset-gatsby": "^0.3.1",
 		"codecov": "^3.6.5",
-		"cypress": "^4.3.0",
+		"cypress": "^4.4.0",
 		"eslint": "^6.5.1",
 		"eslint-config-standard": "^14.1.1",
 		"eslint-plugin-cypress": "^2.10.3",
