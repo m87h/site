@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/kvadevack/site/compare/v1.2.7...v1.2.8) (2020-04-17)
+
+
+### Bug Fixes
+
+* upgrade start-server-and-test from 1.10.11 to 1.11.0 ([29fe276](https://github.com/kvadevack/site/commit/29fe2766770ee658aeb18a406a5d7b574bbd78f8))
+
 ## [1.2.7](https://github.com/kvadevack/site/compare/v1.2.6...v1.2.7) (2020-04-16)
 
 
