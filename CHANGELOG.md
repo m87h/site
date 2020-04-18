@@ -1,3 +1,11 @@
+## [1.2.9](https://github.com/kvadevack/site/compare/v1.2.8...v1.2.9) (2020-04-18)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-image from 2.3.2 to 2.3.4 ([e9b04f3](https://github.com/kvadevack/site/commit/e9b04f313543fd178994059b6d8da1ee6c079ece))
+* **deps:** bump gatsby-remark-responsive-iframe from 2.3.1 to 2.3.3 ([e5b2eb1](https://github.com/kvadevack/site/commit/e5b2eb18e83bee4a2d7c0bcbbfe0ce72853b5d8e))
+
 ## [1.2.8](https://github.com/kvadevack/site/compare/v1.2.7...v1.2.8) (2020-04-17)
 
 
