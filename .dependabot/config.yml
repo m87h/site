@@ -6,3 +6,4 @@ update_configs:
     commit_message:
       prefix: fix
       prefix_development: chore
+      include_scope: true
