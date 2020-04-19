@@ -1,9 +1,13 @@
 {
 	"baseUrl": "http://localhost:9000/",
+	"chromeWebSecurity": false,
 	"fixturesFolder": "test/e2e/fixtures",
 	"integrationFolder": "test/e2e/integration",
-	"pluginsFile": false,
+	"pluginsFile": "test/e2e/plugins/index.js",
+	"projectId": "vmgn1h",
 	"screenshotsFolder": "test/e2e/screenshots",
 	"supportFile": "test/e2e/support/index.js",
-	"video": false
+	"video": false,
+	"viewportHeight": 600,
+	"viewportWidth": 1000
 }
