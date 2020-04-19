@@ -1,11 +1,11 @@
 describe('the RSS feed', () => {
-	it('is present and valid', () => {
-		cy
-			.request('/rss.xml')
-			.then(response => {
-				const feed = Cypress.$.parseXML(response.body);
-				const title = Cypress.$(feed).find('channel > title').text();
-				expect(title).to.equal('Martin Häger');
-			});
+	beforeEach(() => {
+		cy.request('/rss.xml').then(res => Cypress.$(Cypress.$.parseXML(res.body))).as('feed');
+	});
+
+	it('has the correct title', () => {
+		cy.get('@feed').should(feed => {
+			expect(feed.find('channel > title').text()).to.equal('Martin Häger');
+		});
 	});
 });
