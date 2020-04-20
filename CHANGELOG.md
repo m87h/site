@@ -1,3 +1,10 @@
+## [1.2.12](https://github.com/kvadevack/site/compare/v1.2.11...v1.2.12) (2020-04-20)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-remark-prismjs from 3.4.1 to 3.4.4 ([756f5fe](https://github.com/kvadevack/site/commit/756f5fe7b648d93c35ceee0ace6f843d01d508ea))
+
 ## [1.2.11](https://github.com/kvadevack/site/compare/v1.2.10...v1.2.11) (2020-04-20)
 
 
