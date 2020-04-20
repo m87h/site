@@ -1,3 +1,13 @@
+## [1.2.11](https://github.com/kvadevack/site/compare/v1.2.10...v1.2.11) (2020-04-20)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby from 2.20.25 to 2.20.26 ([c3589eb](https://github.com/kvadevack/site/commit/c3589eb4c4d90ed7ad1101b71fc8c952f87e9f95))
+* **deps:** bump gatsby-plugin-react-helmet from 3.2.2 to 3.2.4 ([6b918d8](https://github.com/kvadevack/site/commit/6b918d899997c4148e345fcb76b1e0a4169195f2))
+* **deps:** bump gatsby-plugin-sitemap from 2.3.1 to 2.3.5 ([ae6a4e2](https://github.com/kvadevack/site/commit/ae6a4e26432b2a44ee2c29767478f62d6b4b7862))
+* **deps:** bump gatsby-remark-prismjs from 3.4.1 to 3.4.3 ([2f1a6f7](https://github.com/kvadevack/site/commit/2f1a6f772b14b28a6bfb1c5e1c4780f0be38daef))
+
 ## [1.2.10](https://github.com/kvadevack/site/compare/v1.2.9...v1.2.10) (2020-04-18)
 
 
