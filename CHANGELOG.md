@@ -1,3 +1,14 @@
+## [1.2.13](https://github.com/kvadevack/site/compare/v1.2.12...v1.2.13) (2020-04-21)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby from 2.20.26 to 2.20.27 ([3e212fe](https://github.com/kvadevack/site/commit/3e212fedc873ebac0879a8a473647894a8691297))
+* **deps:** bump gatsby-plugin-feed from 2.4.1 to 2.4.3 ([a8fda90](https://github.com/kvadevack/site/commit/a8fda903b4f894e8592973e6e8fe5fbfd48a4841))
+* **deps:** bump gatsby-plugin-less from 3.1.1 to 3.1.3 ([bf4cd52](https://github.com/kvadevack/site/commit/bf4cd52504f80a8d925436a866f853e9245e97b5))
+* **deps:** bump gatsby-remark-images from 3.2.2 to 3.2.4 ([fc0dc13](https://github.com/kvadevack/site/commit/fc0dc1392b8ce1bc988a4aedb82a77836f635e01))
+* **deps:** bump gatsby-source-filesystem from 2.2.2 to 2.2.4 ([2d1821c](https://github.com/kvadevack/site/commit/2d1821c52e470737774b9e4212be93c95c11790b))
+
 ## [1.2.12](https://github.com/kvadevack/site/compare/v1.2.11...v1.2.12) (2020-04-20)
 
 
