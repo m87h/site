@@ -1,3 +1,11 @@
+## [1.2.14](https://github.com/kvadevack/site/compare/v1.2.13...v1.2.14) (2020-04-21)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby from 2.20.27 to 2.20.28 ([6603cc9](https://github.com/kvadevack/site/commit/6603cc9c2923a1d9cc871532d7f1171c77be8bd9))
+* **deps:** bump gatsby-plugin-manifest from 2.3.3 to 2.3.6 ([3cc1ec4](https://github.com/kvadevack/site/commit/3cc1ec4a8d433611883ff6c260c43cb37e93366d))
+
 ## [1.2.13](https://github.com/kvadevack/site/compare/v1.2.12...v1.2.13) (2020-04-21)
 
 
