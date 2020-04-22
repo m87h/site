@@ -1,4 +1,6 @@
 ---
+os: linux
+dist: xenial
 language: node_js
 node_js: 11
 cache:
@@ -18,7 +20,7 @@ after_success:
   - npx codecov
 deploy:
   provider: script
+  edge: true
   script: npx semantic-release
-  skip_cleanup: true
   on:
     branch: master
