@@ -1,3 +1,14 @@
+## [1.2.15](https://github.com/kvadevack/site/compare/v1.2.14...v1.2.15) (2020-04-22)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-plugin-offline from 3.1.2 to 3.1.4 ([1a9ce32](https://github.com/kvadevack/site/commit/1a9ce3297a8abd63f4f8273828e82b05cee057ba))
+* **deps:** bump gatsby-plugin-sharp from 2.5.4 to 2.5.6 ([03cc4d6](https://github.com/kvadevack/site/commit/03cc4d6dbc3db9b36c5f4737b3102e78264e38ff))
+* **deps:** bump gatsby-remark-images from 3.2.4 to 3.2.5 ([c2b8087](https://github.com/kvadevack/site/commit/c2b8087e1102d642b653306440848abb86182f0e))
+* **deps:** bump gatsby-transformer-remark from 2.7.1 to 2.7.3 ([e262af5](https://github.com/kvadevack/site/commit/e262af5f7915ba0df63fda5b8d518f9d254a036c))
+* **deps:** bump gatsby-transformer-sharp from 2.4.4 to 2.4.6 ([e349547](https://github.com/kvadevack/site/commit/e34954793deb091be4e31763365dce448edbd289))
+
 ## [1.2.14](https://github.com/kvadevack/site/compare/v1.2.13...v1.2.14) (2020-04-21)
 
 
