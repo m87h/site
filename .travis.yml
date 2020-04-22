@@ -20,7 +20,7 @@ after_success:
   - npx codecov
 deploy:
   provider: script
+  edge: true
   script: npx semantic-release
-  skip_cleanup: true
   on:
     branch: master
