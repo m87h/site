@@ -1,3 +1,10 @@
+## [1.2.17](https://github.com/kvadevack/site/compare/v1.2.16...v1.2.17) (2020-04-23)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-remark-copy-linked-files from 2.2.1 to 2.2.3 ([c8261ba](https://github.com/kvadevack/site/commit/c8261ba8a4435b8ea929771c5603df67210a06d3))
+
 ## [1.2.16](https://github.com/kvadevack/site/compare/v1.2.15...v1.2.16) (2020-04-22)
 
 
