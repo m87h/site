@@ -1,3 +1,11 @@
+## [1.2.23](https://github.com/kvadevack/site/compare/v1.2.22...v1.2.23) (2020-04-29)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby from 2.21.1 to 2.21.4 ([9a20216](https://github.com/kvadevack/site/commit/9a202163ad40ffa79ac272bd5349112c38c5b4fa))
+* **deps:** bump gatsby-transformer-remark from 2.8.0 to 2.8.3 ([fccbe17](https://github.com/kvadevack/site/commit/fccbe178e0a72b16b866bba704c661a9d934bdc2))
+
 ## [1.2.22](https://github.com/kvadevack/site/compare/v1.2.21...v1.2.22) (2020-04-28)
 
 
