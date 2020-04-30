@@ -1,3 +1,10 @@
+## [1.2.25](https://github.com/kvadevack/site/compare/v1.2.24...v1.2.25) (2020-04-30)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby from 2.21.5 to 2.21.7 ([5d29ba1](https://github.com/kvadevack/site/commit/5d29ba118361f4da3eb4e1ce10d0c6c76a0be105))
+
 ## [1.2.24](https://github.com/kvadevack/site/compare/v1.2.23...v1.2.24) (2020-04-29)
 
 
