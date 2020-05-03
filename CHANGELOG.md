@@ -1,3 +1,13 @@
+## [1.2.26](https://github.com/kvadevack/site/compare/v1.2.25...v1.2.26) (2020-05-03)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby from 2.21.7 to 2.21.9 ([bc5cc2f](https://github.com/kvadevack/site/commit/bc5cc2f21be21a4996b37cabd6bfb44ffcec17e6))
+* **deps:** bump gatsby-plugin-sitemap from 2.4.0 to 2.4.1 ([61e6dd8](https://github.com/kvadevack/site/commit/61e6dd8c857951b227508e1462690e2d37b3bb08))
+* **deps:** bump gatsby-remark-embed-video from 2.0.1 to 3.0.10 ([fdb3f3f](https://github.com/kvadevack/site/commit/fdb3f3f6d2acd7877ba34f80398023ddad7aa813))
+* **deps:** bump gatsby-transformer-remark from 2.8.3 to 2.8.4 ([7928c8b](https://github.com/kvadevack/site/commit/7928c8bb5c064913f9926bfd46bbce4fb9630889))
+
 ## [1.2.25](https://github.com/kvadevack/site/compare/v1.2.24...v1.2.25) (2020-04-30)
 
 
