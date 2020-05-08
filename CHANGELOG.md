@@ -1,3 +1,11 @@
+## [1.2.34](https://github.com/kvadevack/site/compare/v1.2.33...v1.2.34) (2020-05-08)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby from 2.21.19 to 2.21.21 ([9b457a7](https://github.com/kvadevack/site/commit/9b457a77f7c5a8d1b338bd3ea0129ddff3b2fa21))
+* **deps:** bump gatsby-remark-images from 3.3.1 to 3.3.2 ([8c29240](https://github.com/kvadevack/site/commit/8c29240fdd3acfbd0723d1000efc5f044072f0c2))
+
 ## [1.2.33](https://github.com/kvadevack/site/compare/v1.2.32...v1.2.33) (2020-05-08)
 
 
