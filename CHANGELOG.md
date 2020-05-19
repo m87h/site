@@ -1,3 +1,14 @@
+## [1.2.37](https://github.com/kvadevack/site/compare/v1.2.36...v1.2.37) (2020-05-19)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-plugin-offline from 3.2.1 to 3.2.4 ([cca54c0](https://github.com/kvadevack/site/commit/cca54c06b7c587a348aaeb6bcccfec854da41729))
+* **deps:** bump gatsby-plugin-sharp from 2.6.2 to 2.6.6 ([4021729](https://github.com/kvadevack/site/commit/4021729597c4fe0a513e0a52b68e261d6bd0464d))
+* **deps:** bump gatsby-remark-images from 3.3.2 to 3.3.5 ([4fa56a7](https://github.com/kvadevack/site/commit/4fa56a750d932b5dbeecf4f4254a5cd05e7f88a6))
+* **deps:** bump gatsby-transformer-remark from 2.8.7 to 2.8.10 ([f09e7c1](https://github.com/kvadevack/site/commit/f09e7c18a58aacabd4512a40a66f696815390a39))
+* **deps:** bump mermaid from 8.5.0 to 8.5.1 ([13e2482](https://github.com/kvadevack/site/commit/13e2482c93953df1fae1dd9bc47cd89e475b46ba))
+
 ## [1.2.36](https://github.com/kvadevack/site/compare/v1.2.35...v1.2.36) (2020-05-12)
 
 
