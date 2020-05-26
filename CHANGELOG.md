@@ -1,3 +1,15 @@
+## [1.2.43](https://github.com/kvadevack/site/compare/v1.2.42...v1.2.43) (2020-05-26)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby from 2.22.1 to 2.22.11 ([ffe5735](https://github.com/kvadevack/site/commit/ffe5735924d12e173484863541b4a2d0b8b3214b))
+* **deps:** bump gatsby-plugin-feed from 2.5.1 to 2.5.3 ([0efd43c](https://github.com/kvadevack/site/commit/0efd43cda2efe21d4b44265202a0d347c32154fa))
+* **deps:** bump gatsby-plugin-less from 3.2.1 to 3.2.2 ([912b266](https://github.com/kvadevack/site/commit/912b266823f025d23ac46c680fa41ddf32b445e1))
+* **deps:** bump gatsby-remark-copy-linked-files from 2.3.2 to 2.3.3 ([cddc96a](https://github.com/kvadevack/site/commit/cddc96a509f21ceea70a1be0b90bddacefb29ade))
+* **deps:** bump gatsby-remark-prismjs from 3.5.1 to 3.5.2 ([1065e4c](https://github.com/kvadevack/site/commit/1065e4c2793b46d1f27359f6d1771b4184a2e970))
+* **deps:** bump gatsby-remark-responsive-iframe from 2.4.2 to 2.4.3 ([04a8c0e](https://github.com/kvadevack/site/commit/04a8c0e9dfe7e239ae6f01cab333ce601e6f4c7d))
+
 ## [1.2.42](https://github.com/kvadevack/site/compare/v1.2.41...v1.2.42) (2020-05-26)
 
 
