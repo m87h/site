@@ -1,3 +1,10 @@
+## [1.2.42](https://github.com/kvadevack/site/compare/v1.2.41...v1.2.42) (2020-05-26)
+
+
+### Bug Fixes
+
+* **resume:** reword position to developer ([af1820a](https://github.com/kvadevack/site/commit/af1820a835059df2fed3f62db4ff96a4914fb026))
+
 ## [1.2.41](https://github.com/kvadevack/site/compare/v1.2.40...v1.2.41) (2020-05-23)
 
 
