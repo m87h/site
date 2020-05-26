@@ -1,7 +1,7 @@
 {
 	"basics": {
 		"name": "Martin Häger",
-		"label": "Software Engineer",
+		"label": "Software Developer",
 		"picture": "../assets/images/photo.jpg",
 		"email": "martin.haeger@gmail.com",
 		"phone": "+46 (0) 723 071630",
@@ -27,13 +27,13 @@
 	"work": [
 		{
 			"company": "Novarto",
-			"position": "Senior Developer",
+			"position": "Senior Software Developer",
 			"website": "https://novarto.se",
 			"startDate": "2020-01-13"
 		},
 		{
 			"company": "AUTOCOM",
-			"position": "DevOps Engineer",
+			"position": "Software Developer",
 			"website": "https://autocom.se",
 			"startDate": "2015-09-01",
 			"endDate": "2020-01-10",
@@ -42,7 +42,7 @@
 		},
 		{
 			"company": "Madington",
-			"position": "Web Developer",
+			"position": "Software Developer",
 			"website": "https://madington.com",
 			"startDate": "2012-02-21",
 			"endDate": "2015-09-01",
@@ -51,7 +51,7 @@
 		},
 		{
 			"company": "Netlight",
-			"position": "Web Developer",
+			"position": "Software Developer",
 			"website": "https://www.netlight.com",
 			"startDate": "2010-09-01",
 			"endDate": "2010-11-01",
@@ -60,7 +60,7 @@
 		},
 		{
 			"company": "Burt",
-			"position": "Web Developer",
+			"position": "Software Developer",
 			"website": "https://burtcorp.com",
 			"startDate": "2010-01-01",
 			"endDate": "2010-09-01",
@@ -69,7 +69,7 @@
 		},
 		{
 			"company": "Chalmers Teknologkonsulter",
-			"position": "Web Developer",
+			"position": "Software Developer",
 			"website": "https://ctk.se",
 			"startDate": "2007-04-01",
 			"endDate": "2008-12-01",
