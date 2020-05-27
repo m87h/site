@@ -1,3 +1,10 @@
+## [1.2.44](https://github.com/kvadevack/site/compare/v1.2.43...v1.2.44) (2020-05-27)
+
+
+### Bug Fixes
+
+* **resume:** flesh out summary for AUTOCOM position ([3a3eb36](https://github.com/kvadevack/site/commit/3a3eb363a2563897db9d026775c7883b0f0e9a43))
+
 ## [1.2.43](https://github.com/kvadevack/site/compare/v1.2.42...v1.2.43) (2020-05-26)
 
 
