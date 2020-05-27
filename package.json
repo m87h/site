@@ -39,7 +39,7 @@
 		"gatsby-remark-responsive-iframe": "^2.4.3",
 		"gatsby-source-filesystem": "^2.3.8",
 		"gatsby-transformer-remark": "^2.8.13",
-		"gatsby-transformer-sharp": "^2.5.2",
+		"gatsby-transformer-sharp": "^2.5.3",
 		"less": "^3.11.1",
 		"mermaid": "^8.5.1",
 		"mermaid.cli": "^0.5.1",
