@@ -1,3 +1,12 @@
+## [1.2.45](https://github.com/kvadevack/site/compare/v1.2.44...v1.2.45) (2020-06-02)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-plugin-react-helmet from 3.3.1 to 3.3.3 ([05109b1](https://github.com/kvadevack/site/commit/05109b110743aa3581862fc2d57d483099e98ddd))
+* **deps:** bump gatsby-plugin-sitemap from 2.4.2 to 2.4.4 ([1700250](https://github.com/kvadevack/site/commit/170025031da93a4376813e473d4e8972949f89bb))
+* **deps:** bump gatsby-transformer-sharp from 2.5.2 to 2.5.4 ([083c000](https://github.com/kvadevack/site/commit/083c000d91c6cdc5f2f9f915bc7266c4cadfc93a))
+
 ## [1.2.44](https://github.com/kvadevack/site/compare/v1.2.43...v1.2.44) (2020-05-27)
 
 
