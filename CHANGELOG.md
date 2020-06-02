@@ -1,3 +1,11 @@
+## [1.2.46](https://github.com/kvadevack/site/compare/v1.2.45...v1.2.46) (2020-06-02)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-plugin-robots-txt from 1.5.0 to 1.5.1 ([92ebd33](https://github.com/kvadevack/site/commit/92ebd33988ad4c23065fd8edaef30c71c25a14c3))
+* **deps:** bump gatsby-remark-copy-linked-files from 2.3.3 to 2.3.4 ([0ae9f9c](https://github.com/kvadevack/site/commit/0ae9f9c90a4b7202e709bfe9dc0a153324091bae))
+
 ## [1.2.45](https://github.com/kvadevack/site/compare/v1.2.44...v1.2.45) (2020-06-02)
 
 
