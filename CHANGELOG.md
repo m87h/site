@@ -1,3 +1,10 @@
+## [1.2.47](https://github.com/kvadevack/site/compare/v1.2.46...v1.2.47) (2020-06-03)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-plugin-sharp from 2.6.6 to 2.6.10 ([f5f8db9](https://github.com/kvadevack/site/commit/f5f8db9044808512045b2d2ef192b75b3dfc0f1e))
+
 ## [1.2.46](https://github.com/kvadevack/site/compare/v1.2.45...v1.2.46) (2020-06-02)
 
 
