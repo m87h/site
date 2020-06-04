@@ -78,7 +78,7 @@
 		"execa": "^4.0.2",
 		"gatsby-cypress": "^0.4.3",
 		"generator-license": "^5.4.0",
-		"gh-pages": "^2.1.1",
+		"gh-pages": "^3.0.0",
 		"identity-obj-proxy": "^3.0.0",
 		"is-ci": "^2.0.0",
 		"jest": "^26.0.1",
