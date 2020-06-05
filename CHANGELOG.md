@@ -1,3 +1,10 @@
+## [1.2.50](https://github.com/kvadevack/site/compare/v1.2.49...v1.2.50) (2020-06-05)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-plugin-less from 3.2.2 to 3.2.3 ([f43ab9a](https://github.com/kvadevack/site/commit/f43ab9adea4229b6713225058d7eac5aa83b4503))
+
 ## [1.2.49](https://github.com/kvadevack/site/compare/v1.2.48...v1.2.49) (2020-06-05)
 
 
