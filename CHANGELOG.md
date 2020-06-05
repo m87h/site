@@ -1,3 +1,16 @@
+## [1.2.49](https://github.com/kvadevack/site/compare/v1.2.48...v1.2.49) (2020-06-05)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump websocket-extensions from 0.1.3 to 0.1.4 ([3f18ba0](https://github.com/kvadevack/site/commit/3f18ba0e877f1f435a10b7ae25dfb7476be744ef))
+* **deps:** bump gatsby from 2.22.11 to 2.23.1 ([0579242](https://github.com/kvadevack/site/commit/0579242db644313fbc2b3163cdf71672e50c3bb9))
+* **deps:** bump gatsby-plugin-feed from 2.5.3 to 2.5.4 ([1054d26](https://github.com/kvadevack/site/commit/1054d26c285c5b5ac451620b586db4c3c83238c9))
+* **deps:** bump gatsby-plugin-offline from 3.2.7 to 3.2.8 ([ca5a413](https://github.com/kvadevack/site/commit/ca5a413da077f76f48214fe26d493d774772a114))
+* **deps:** bump gatsby-remark-images from 3.3.8 to 3.3.9 ([99ff6b1](https://github.com/kvadevack/site/commit/99ff6b1f342d03fee5a1fb2d24fa298b8f6a90d0))
+* **deps:** bump gatsby-remark-responsive-iframe from 2.4.3 to 2.4.4 ([a82e9a2](https://github.com/kvadevack/site/commit/a82e9a2bea6568b5e6f9d0333cdd735ee2e98676))
+* **deps:** bump gatsby-transformer-remark from 2.8.13 to 2.8.14 ([9edd4bf](https://github.com/kvadevack/site/commit/9edd4bfd9e483eb62b487c83bac0482f77295d06))
+
 ## [1.2.48](https://github.com/kvadevack/site/compare/v1.2.47...v1.2.48) (2020-06-03)
 
 
