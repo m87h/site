@@ -1,3 +1,10 @@
+## [1.2.51](https://github.com/kvadevack/site/compare/v1.2.50...v1.2.51) (2020-06-09)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump graphql-playground-html from 1.6.20 to 1.6.25 ([a37dda1](https://github.com/kvadevack/site/commit/a37dda17547c5fe86767872bca764c96445399fb))
+
 ## [1.2.50](https://github.com/kvadevack/site/compare/v1.2.49...v1.2.50) (2020-06-05)
 
 
