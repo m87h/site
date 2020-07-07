@@ -1,3 +1,10 @@
+## [1.2.52](https://github.com/kvadevack/site/compare/v1.2.51...v1.2.52) (2020-07-07)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump npm from 6.14.5 to 6.14.6 ([153ca77](https://github.com/kvadevack/site/commit/153ca777d2e6fac4f39caccad21e1be31fd543ce))
+
 ## [1.2.51](https://github.com/kvadevack/site/compare/v1.2.50...v1.2.51) (2020-06-09)
 
 
