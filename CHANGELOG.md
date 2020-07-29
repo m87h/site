@@ -1,3 +1,10 @@
+## [1.2.53](https://github.com/kvadevack/site/compare/v1.2.52...v1.2.53) (2020-07-29)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump elliptic from 6.5.2 to 6.5.3 ([ddfb63b](https://github.com/kvadevack/site/commit/ddfb63bdcc07e9e633b603cc2ad70d11107b0b0e))
+
 ## [1.2.52](https://github.com/kvadevack/site/compare/v1.2.51...v1.2.52) (2020-07-07)
 
 
