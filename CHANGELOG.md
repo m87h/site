@@ -1,3 +1,10 @@
+## [1.2.54](https://github.com/kvadevack/site/compare/v1.2.53...v1.2.54) (2020-09-10)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump bl from 1.2.2 to 1.2.3 ([dde87e4](https://github.com/kvadevack/site/commit/dde87e424810295720b549345ffc0dea72078714))
+
 ## [1.2.53](https://github.com/kvadevack/site/compare/v1.2.52...v1.2.53) (2020-07-29)
 
 
