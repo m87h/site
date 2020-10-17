@@ -1,3 +1,10 @@
+## [1.2.55](https://github.com/kvadevack/site/compare/v1.2.54...v1.2.55) (2020-10-17)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump npm-user-validate from 1.0.0 to 1.0.1 ([5984a16](https://github.com/kvadevack/site/commit/5984a16eb0fbe1e2ffe50c27f7ff0dcf7e8c652c))
+
 ## [1.2.54](https://github.com/kvadevack/site/compare/v1.2.53...v1.2.54) (2020-09-10)
 
 
