@@ -1,3 +1,10 @@
+## [1.2.56](https://github.com/kvadevack/site/compare/v1.2.55...v1.2.56) (2020-12-10)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump ini from 1.3.5 to 1.3.7 ([a29dec2](https://github.com/kvadevack/site/commit/a29dec20b10e9796af0a4465351414dfc273381a))
+
 ## [1.2.55](https://github.com/kvadevack/site/compare/v1.2.54...v1.2.55) (2020-10-17)
 
 
