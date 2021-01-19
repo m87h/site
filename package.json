@@ -40,7 +40,7 @@
 		"gatsby-source-filesystem": "^2.3.10",
 		"gatsby-transformer-remark": "^2.8.14",
 		"gatsby-transformer-sharp": "^2.5.4",
-		"less": "^3.11.2",
+		"less": "^3.13.1",
 		"mermaid": "^8.5.1",
 		"mermaid.cli": "^0.5.1",
 		"moment": "^2.26.0",
