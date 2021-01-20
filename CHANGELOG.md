@@ -1,3 +1,17 @@
+## [1.2.57](https://github.com/kvadevack/site/compare/v1.2.56...v1.2.57) (2021-01-20)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump object-path from 0.11.4 to 0.11.5 ([8d6bd3c](https://github.com/kvadevack/site/commit/8d6bd3ccdb19f984682dab899539e7540b2d113e))
+* **deps:** [security] bump prismjs from 1.20.0 to 1.21.0 ([29dbf24](https://github.com/kvadevack/site/commit/29dbf24d8f1b1907fcdba8be7b0e07f1280f03c0))
+* **deps:** bump gatsby-plugin-less from 3.2.3 to 4.6.0 ([d0e7706](https://github.com/kvadevack/site/commit/d0e77062edc2f7b7660d2820d4a3ec7e62839918))
+* **deps:** bump gatsby-plugin-offline from 3.2.8 to 3.9.0 ([cd1fb62](https://github.com/kvadevack/site/commit/cd1fb62a79f11dbccaccdf2fc292e4d806bfe2d3))
+* **deps:** bump gatsby-remark-images from 3.3.9 to 3.10.0 ([f704dfc](https://github.com/kvadevack/site/commit/f704dfc39401a0a6918220c1226b13d9433d09de))
+* **deps:** bump less from 3.11.2 to 3.13.1 ([76e8899](https://github.com/kvadevack/site/commit/76e8899beb98623d9d433ee66368cdbe25488564))
+* **deps:** bump mermaid from 8.5.1 to 8.8.4 ([ec3901a](https://github.com/kvadevack/site/commit/ec3901a29fecd67b632d9d806e3f7f4fa082a475))
+* **deps:** bump react-helmet from 6.0.0 to 6.1.0 ([3ce3984](https://github.com/kvadevack/site/commit/3ce3984f05d7caf4581faf064040347b286f23ce))
+
 ## [1.2.56](https://github.com/kvadevack/site/compare/v1.2.55...v1.2.56) (2020-12-10)
 
 
