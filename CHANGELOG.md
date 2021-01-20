@@ -1,3 +1,11 @@
+## [1.2.58](https://github.com/kvadevack/site/compare/v1.2.57...v1.2.58) (2021-01-20)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump dot-prop from 4.2.0 to 4.2.1 ([107dcbc](https://github.com/kvadevack/site/commit/107dcbc0d867beef65286469996e7142e19126a1))
+* **deps:** [security] bump npm-user-validate from 1.0.0 to 1.0.1 ([900ef7e](https://github.com/kvadevack/site/commit/900ef7ee6cb4ea989e1291bd54c8e1c05f31e562))
+
 ## [1.2.57](https://github.com/kvadevack/site/compare/v1.2.56...v1.2.57) (2021-01-20)
 
 
