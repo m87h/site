@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/kvadevack/site/compare/v1.2.58...v1.3.0) (2021-02-16)
+
+
+### Features
+
+* add matrix delegation file ([f8507b0](https://github.com/kvadevack/site/commit/f8507b0cf7411f8feb65bd9a9fef597c2ee86998))
+
 ## [1.2.58](https://github.com/kvadevack/site/compare/v1.2.57...v1.2.58) (2021-01-20)
 
 
