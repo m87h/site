@@ -1,3 +1,20 @@
+## [1.3.4](https://github.com/kvadevack/site/compare/v1.3.3...v1.3.4) (2021-02-17)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump socket.io from 2.3.0 to 2.4.1 ([c685e43](https://github.com/kvadevack/site/commit/c685e43bfe9237f4a0dca63abae28ae7bd82278a))
+* **deps:** bump gatsby from 2.23.1 to 2.32.3 ([aa1a703](https://github.com/kvadevack/site/commit/aa1a7036ed6120e6791c76ed93744d21da153c8d))
+* **deps:** bump gatsby-image from 2.4.6 to 2.11.0 ([d931648](https://github.com/kvadevack/site/commit/d931648dadd7c51ace199478e5b69f8ac460bffa))
+* **deps:** bump gatsby-plugin-feed from 2.5.4 to 2.13.0 ([c079968](https://github.com/kvadevack/site/commit/c07996873e84b2813bfcc57b6d956663a6f94713))
+* **deps:** bump gatsby-plugin-sharp from 2.6.10 to 2.14.1 ([9b06aab](https://github.com/kvadevack/site/commit/9b06aabfbd973375c91d3ccb7f02758b52f0228e))
+* **deps:** bump gatsby-remark-copy-linked-files from 2.3.4 to 2.10.0 ([bf31b6a](https://github.com/kvadevack/site/commit/bf31b6a7c85081a62e5b4881bd6c783f9b3f7ba6))
+* **deps:** bump gatsby-remark-prismjs from 3.5.3 to 3.13.0 ([66188aa](https://github.com/kvadevack/site/commit/66188aa750e52cee5d774adc8402ca2f9675a625))
+* **deps:** bump gatsby-remark-responsive-iframe from 2.4.4 to 2.11.0 ([84b7fb4](https://github.com/kvadevack/site/commit/84b7fb4b6d894eb445c59e3681a9d4998fd942b0))
+* **deps:** bump gatsby-remark-responsive-iframe from 2.4.4 to 2.11.0 ([c9a8d1c](https://github.com/kvadevack/site/commit/c9a8d1c302199028d022165d168825338bdb5412))
+* **deps:** bump mermaid from 8.8.4 to 8.9.0 ([cbb4600](https://github.com/kvadevack/site/commit/cbb4600a89257807cbfbb26be7f9bdbf72854c4a))
+* **deps:** install gatsby-remark-embed-snippet from NPM and fix package-lock.json ([561afac](https://github.com/kvadevack/site/commit/561afac09f4d1f3711071fdac72e2cd92a79ba65))
+
 ## [1.3.3](https://github.com/kvadevack/site/compare/v1.3.2...v1.3.3) (2021-02-17)
 
 
