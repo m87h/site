@@ -11,7 +11,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Setup cache
-      uses: actions/cache@v2
+      uses: actions/cache@v2.1.4
       with:
         path: |
           ~/.npm
@@ -20,7 +20,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-
     - name: Setup Node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v2.1.4
       with:
         node-version: 12.13.1
     - name: Install dependencies
