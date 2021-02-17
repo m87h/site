@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/kvadevack/site/compare/v1.3.1...v1.3.2) (2021-02-17)
+
+
+### Bug Fixes
+
+* **ci:** include dotfiles in deploy and force a new release ([b64ad01](https://github.com/kvadevack/site/commit/b64ad01dd507d25790b3cd4ecff328b632617103))
+
 ## [1.3.1](https://github.com/kvadevack/site/compare/v1.3.0...v1.3.1) (2021-02-17)
 
 
