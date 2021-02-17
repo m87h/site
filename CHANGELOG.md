@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/kvadevack/site/compare/v1.4.0...v1.4.1) (2021-02-17)
+
+
+### Bug Fixes
+
+* **social:** add Matrix link ([cbc1b24](https://github.com/kvadevack/site/commit/cbc1b24fe6282a910e2cfaced1ff9127544bbf86))
+
 # [1.4.0](https://github.com/kvadevack/site/compare/v1.3.4...v1.4.0) (2021-02-17)
 
 
