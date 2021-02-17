@@ -9,6 +9,7 @@ module.exports = {
 		social: {
 			twitter: 'kvadevack',
 			github: 'kvadevack',
+			matrix: 'kvadevack:kvadevack.se'
 		},
 		repo: 'kvadevack/site',
 	},
