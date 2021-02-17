@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/kvadevack/site/compare/v1.3.0...v1.3.1) (2021-02-17)
+
+
+### Bug Fixes
+
+* **ci:** fix deployment and force a new release ([d6940a7](https://github.com/kvadevack/site/commit/d6940a74d4bd8234b77f7898116da3e6f00f3b50))
+
 # [1.3.0](https://github.com/kvadevack/site/compare/v1.2.58...v1.3.0) (2021-02-16)
 
 
