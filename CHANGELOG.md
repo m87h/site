@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/kvadevack/site/compare/v1.3.2...v1.3.3) (2021-02-17)
+
+
+### Bug Fixes
+
+* **gh-pages:** disable Jekyll processing ([ceec777](https://github.com/kvadevack/site/commit/ceec7772bc4dfbaf83203c396f2ea2f0254846da))
+
 ## [1.3.2](https://github.com/kvadevack/site/compare/v1.3.1...v1.3.2) (2021-02-17)
 
 
