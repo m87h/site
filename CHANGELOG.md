@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/kvadevack/site/compare/v1.3.4...v1.4.0) (2021-02-17)
+
+
+### Features
+
+* add Matrix client delegation ([a20cd51](https://github.com/kvadevack/site/commit/a20cd517a2bf83fda02222331381533638a41a51))
+
 ## [1.3.4](https://github.com/kvadevack/site/compare/v1.3.3...v1.3.4) (2021-02-17)
 
 
