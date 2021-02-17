@@ -38,4 +38,5 @@ jobs:
       if: github.event_name == 'push' && github.ref == 'refs/heads/master'
       run: npx semantic-release
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
