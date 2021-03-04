@@ -1,3 +1,11 @@
+## [1.4.2](https://github.com/kvadevack/site/compare/v1.4.1...v1.4.2) (2021-03-04)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby from 2.32.3 to 2.32.9 ([e9581f6](https://github.com/kvadevack/site/commit/e9581f64fd02efd942df63f109ca5879a486f46f))
+* **deps:** bump semantic-ui-react from 0.88.2 to 2.0.3 ([d4151a2](https://github.com/kvadevack/site/commit/d4151a26563e86294e5e36a2f81d0d9fd47d66e6))
+
 ## [1.4.1](https://github.com/kvadevack/site/compare/v1.4.0...v1.4.1) (2021-02-17)
 
 
