@@ -1,7 +1,6 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import { Segment } from 'semantic-ui-react';
-import moment from 'moment';
 
 import { version } from '../../package';
 
