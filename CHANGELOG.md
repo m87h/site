@@ -1,3 +1,11 @@
+## [1.4.4](https://github.com/kvadevack/site/compare/v1.4.3...v1.4.4) (2021-03-06)
+
+
+### Bug Fixes
+
+* **copyright:** update copyright year ([312dbdf](https://github.com/kvadevack/site/commit/312dbdf6c58bf09d871ce096ab9855aea47606df))
+* **resume:** update address ([5b9ab75](https://github.com/kvadevack/site/commit/5b9ab756d232375e0bc38ef5f9ee8a1951b531ea))
+
 ## [1.4.3](https://github.com/kvadevack/site/compare/v1.4.2...v1.4.3) (2021-03-05)
 
 
