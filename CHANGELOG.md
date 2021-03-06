@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/kvadevack/site/compare/v1.4.4...v1.4.5) (2021-03-06)
+
+
+### Bug Fixes
+
+* remove unused import ([c1c7f92](https://github.com/kvadevack/site/commit/c1c7f92d25c5ff2ac14f25b10ac36bab314f580e))
+
 ## [1.4.4](https://github.com/kvadevack/site/compare/v1.4.3...v1.4.4) (2021-03-06)
 
 
