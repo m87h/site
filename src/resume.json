@@ -26,10 +26,18 @@
 	},
 	"work": [
 		{
+			"company": "Leissner",
+			"position": "Senior Software Developer",
+			"website": "https://www.leissner.se",
+			"startDate": "2020-08-17"
+		},
+		{
 			"company": "Novarto",
 			"position": "Senior Software Developer",
 			"website": "https://novarto.se",
-			"startDate": "2020-01-13"
+			"startDate": "2020-01-13",
+			"endDate": "2020-08-17",
+			"summary": "Configured and administered Kubernetes clusters on Google Cloud Platform, and developed SAP solutions together with teams in Bulgaria, India, and Germany."
 		},
 		{
 			"company": "AUTOCOM",
