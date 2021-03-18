@@ -1,3 +1,13 @@
+## [1.4.6](https://github.com/kvadevack/site/compare/v1.4.5...v1.4.6) (2021-03-18)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-image from 2.11.0 to 3.1.0 ([bc02c85](https://github.com/kvadevack/site/commit/bc02c853eeafdc79c2f53de41bcc8c001f24676b))
+* **deps:** bump gatsby-remark-embed-video from 3.0.12 to 3.1.1 ([dfba9ea](https://github.com/kvadevack/site/commit/dfba9eaf78d63ddd4c5d01f738c8ff059b59d3c4))
+* **deps:** bump gatsby-source-filesystem from 2.11.0 to 2.11.1 ([2872940](https://github.com/kvadevack/site/commit/2872940a1f51a63e45a5b094bf70fb394fa940ac))
+* **resume:** add new job ([d6f6d91](https://github.com/kvadevack/site/commit/d6f6d915e61bf745f4f00d430fb37ad75eec8fd3))
+
 ## [1.4.5](https://github.com/kvadevack/site/compare/v1.4.4...v1.4.5) (2021-03-06)
 
 
