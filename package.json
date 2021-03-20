@@ -40,7 +40,7 @@
 		"gatsby-source-filesystem": "^2.11.1",
 		"gatsby-transformer-remark": "^2.16.1",
 		"gatsby-transformer-sharp": "^2.5.4",
-		"less": "^3.13.1",
+		"less": "^4.1.1",
 		"mermaid": "^8.9.1",
 		"mermaid.cli": "^0.5.1",
 		"moment": "^2.26.0",
@@ -89,10 +89,10 @@
 		"puppeteer": "^8.0.0",
 		"regenerator-runtime": "^0.13.3",
 		"rimraf": "^3.0.0",
-		"semantic-release": "^17.2.3",
+		"semantic-release": "^17.4.2",
 		"slugify": "^1.4.7",
-		"start-server-and-test": "^1.11.0",
-		"yeoman-generator": "^5.0.1",
+		"start-server-and-test": "^1.12.1",
+		"yeoman-generator": "^5.2.0",
 		"yo": "^3.1.0"
 	}
 }
