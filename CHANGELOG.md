@@ -1,3 +1,10 @@
+## [1.4.7](https://github.com/kvadevack/site/compare/v1.4.6...v1.4.7) (2021-03-20)
+
+
+### Bug Fixes
+
+* **deps:** bump less from 3.13.1 to 4.1.1 ([8d788d0](https://github.com/kvadevack/site/commit/8d788d0353d9b2e34a6d58e552de516e0692520b))
+
 ## [1.4.6](https://github.com/kvadevack/site/compare/v1.4.5...v1.4.6) (2021-03-18)
 
 
