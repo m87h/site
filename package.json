@@ -89,7 +89,7 @@
 		"puppeteer": "^8.0.0",
 		"regenerator-runtime": "^0.13.3",
 		"rimraf": "^3.0.0",
-		"semantic-release": "^17.2.3",
+		"semantic-release": "^17.4.2",
 		"slugify": "^1.4.7",
 		"start-server-and-test": "^1.11.0",
 		"yeoman-generator": "^5.2.0",
