@@ -1,3 +1,10 @@
+## 1.5.2 (2021-04-10)
+
+
+### Bug Fixes
+
+* regenerate changelog with new options (7eb46b5)
+
 ## 1.5.1 (2021-04-10)
 
 
@@ -938,6 +945,3 @@
 ### Bug Fixes
 
 * **resume:** reword DevOps level (4e35c73)
-
-
-
