@@ -1,3 +1,10 @@
+## 1.5.1 (2021-04-10)
+
+
+### Bug Fixes
+
+* don't link to repo in changelog 2705e6f
+
 # [1.5.0](https://github.com/kvadevack/site/compare/v1.4.9...v1.5.0) (2021-04-10)
 
 
