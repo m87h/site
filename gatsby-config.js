@@ -3,15 +3,14 @@ module.exports = {
 		title: 'Martin Häger',
 		description: 'Full-stack software developer with DevOps experience. Blogging about programming, video games, music, electronics engineering, and all things DIY.',
 		siteUrl: 'https://kvadevack.se',
-		repositoryUrl: 'https://github.com/kvadevack/site',
 		author: 'Martin Häger',
 		email: 'martin.haeger@gmail.com',
 		social: {
 			twitter: 'kvadevack',
 			github: 'kvadevack',
+			replit: 'kvadevack',
 			matrix: 'kvadevack:kvadevack.se'
 		},
-		repo: 'kvadevack/site',
 	},
 	plugins: [
 		'gatsby-plugin-feed',
@@ -36,6 +35,13 @@ module.exports = {
 			options: {
 				name: 'assets',
 				path: `${__dirname}/assets/`,
+			},
+		},
+		{
+			resolve: 'gatsby-source-filesystem',
+			options: {
+				name: 'pages',
+				path: `${__dirname}/pages/`,
 			},
 		},
 		{

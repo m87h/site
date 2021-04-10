@@ -1,5 +1,6 @@
 const Generator = require('yeoman-generator');
 const slugify = require('slugify');
+const posts = require('../../test/e2e/fixtures/posts.json');
 
 module.exports = class extends Generator {
 	async prompting () {
@@ -33,11 +34,15 @@ module.exports = class extends Generator {
 	}
 
 	writing () {
-		const { title, tags } = this.answers;
+		const { title, tags, hasExample } = this.answers;
 		this.fs.copyTpl(
 			this.templatePath('index.md'),
 			this.destinationPath(`posts/${this.slug}/index.md`),
 			{ title, tags }
+		);
+		this.fs.writeJSON(
+			this.destinationPath('test/e2e/fixtures/posts.json'),
+			[...posts, { slug: this.slug, hasExample }].sort((a, b) => a.slug < b.slug ? -1 : a.slug === b.slug ? 0 : 1)
 		);
 	}
 };

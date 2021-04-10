@@ -17,17 +17,53 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 	if (node.internal.type === 'MarkdownRemark') {
 		const path = createFilePath({ node, getNode });
 		createNodeField({ name: 'slug', node, value: path.substring(1, path.length - 1) });
+		createNodeField({ name: 'collection', node, value: getNode(node.parent).sourceInstanceName });
 	}
 };
 
-exports.createPages = ({ graphql, actions }) => {
+function createPages({ graphql, actions }) {
 	const { createPage } = actions;
 
 	return new Promise((resolve, reject) => {
 		resolve(
 			graphql(`
 				{
-					allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 1000) {
+					allMarkdownRemark(filter: { fields: { collection: { eq: "pages" } } }) {
+						edges {
+							node {
+								fields {
+									slug
+								}
+							}
+						}
+					}
+				}
+				`
+			).then(({ data }) => {
+				const pages = data.allMarkdownRemark.edges;
+				pages.forEach(page => {
+					const slug = page.node.fields.slug;
+					createPage({
+						path: `/${slug}`,
+						component: `${__dirname}/src/templates/page.js`,
+						context: { slug }
+					});
+				});
+			})
+		)
+	});
+}
+
+function createPosts({ graphql, actions }) {
+	const { createPage } = actions;
+
+	return new Promise((resolve, reject) => {
+		resolve(
+			graphql(`
+				{
+					allMarkdownRemark(
+						filter: { fields: { collection: { eq: "posts" } } }
+						sort: { fields: [frontmatter___date], order: DESC }, limit: 1000) {
 						edges {
 							node {
 								fields {
@@ -74,4 +110,11 @@ exports.createPages = ({ graphql, actions }) => {
 			})
 		);
 	});
+}
+
+exports.createPages = helpers => {
+	return Promise.all([
+		createPages(helpers),
+		createPosts(helpers)
+	]);
 };

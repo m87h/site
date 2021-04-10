@@ -7,7 +7,7 @@ import SEO from '../components/SEO';
 
 export default ({ pageContext, data }) => {
 	const post = data.markdownRemark;
-	const { repo, social } = data.site.siteMetadata;
+	const { social } = data.site.siteMetadata;
 	const { slug, hasExample } = pageContext;
 
 	return (
@@ -33,7 +33,7 @@ export default ({ pageContext, data }) => {
 						This post{hasExample && <>, excluding sample code,</>} is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
 						Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 						{hasExample &&
-							<> See the <a href={`https://github.com/${repo}/tree/master/examples/${slug}`}>example directory</a> for code licensing.</>
+							<> See the <a href={`https://replit.com/@${social.replit}/${slug}`}>example directory</a> for code licensing.</>
 						}
 					</em>
 				</p>
@@ -46,10 +46,9 @@ export const pageQuery = graphql`
 	query($slug: String!) {
 		site {
 			siteMetadata {
-				repo
 				social {
 					twitter
-					github
+					replit
 				}
 			}
 		}
