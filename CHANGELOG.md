@@ -1,3 +1,16 @@
+# [1.5.0](https://github.com/kvadevack/site/compare/v1.4.9...v1.5.0) (2021-04-10)
+
+
+### Bug Fixes
+
+* move code examples to replit ([679c9b8](https://github.com/kvadevack/site/commit/679c9b8c52021bc1de0756efab60973b913ce6ab))
+* remove footer repo link ([4ef591d](https://github.com/kvadevack/site/commit/4ef591d2c4884fcce3d27a5fd2a719c56f288c7f))
+
+
+### Features
+
+* render changelog to a page ([fab7e35](https://github.com/kvadevack/site/commit/fab7e3569d3bc389c834ff18574d2378cc42e61c))
+
 ## [1.4.9](https://github.com/kvadevack/site/compare/v1.4.8...v1.4.9) (2021-04-10)
 
 
