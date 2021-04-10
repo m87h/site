@@ -2,12 +2,28 @@ const { promisify } = require('util');
 const ghpages = require('gh-pages');
 const execa = require('execa');
 
+const headerPartial = `## {{version}}
+{{~#if title}} "{{title}}"
+{{~/if}}
+{{~#if date}} ({{date}})
+{{/if}}
+`;
+
+const commitPartial = `*{{#if scope}} **{{scope}}:**
+{{~/if}} {{#if subject}}
+  {{~subject}}
+{{~else}}
+  {{~header}}
+{{~/if}} ({{~shortHash}})
+`;
+
 module.exports = {
 	plugins: [
 		'@semantic-release/commit-analyzer',
 		['@semantic-release/release-notes-generator', {
 			linkCompare: false,
 			linkReferences: false,
+			writerOpts: { headerPartial, commitPartial },
 		}],
 		'@semantic-release/changelog',
 		'@semantic-release/npm',
