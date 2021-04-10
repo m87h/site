@@ -20,8 +20,8 @@
 	},
 	"dependencies": {
 		"gatsby": "^2.32.11",
-		"gatsby-image": "^3.1.0",
-		"gatsby-plugin-feed": "^2.13.0",
+		"gatsby-image": "^3.2.0",
+		"gatsby-plugin-feed": "^2.13.1",
 		"gatsby-plugin-less": "^4.6.0",
 		"gatsby-plugin-manifest": "^2.6.1",
 		"gatsby-plugin-offline": "^3.10.2",
@@ -34,7 +34,7 @@
 		"gatsby-remark-embed-snippet": "^4.10.0",
 		"gatsby-remark-embed-video": "^3.1.1",
 		"gatsby-remark-external-links": "0.0.4",
-		"gatsby-remark-images": "^3.10.0",
+		"gatsby-remark-images": "^3.11.1",
 		"gatsby-remark-prismjs": "^3.13.0",
 		"gatsby-remark-responsive-iframe": "^2.11.0",
 		"gatsby-source-filesystem": "^2.11.1",
@@ -53,7 +53,7 @@
 		"semantic-ui-react": "^2.0.3"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.13.10",
+		"@babel/core": "^7.13.14",
 		"@semantic-release/changelog": "^5.0.1",
 		"@semantic-release/git": "^9.0.0",
 		"@testing-library/cypress": "^7.0.4",
@@ -64,7 +64,7 @@
 		"babel-jest": "^26.0.1",
 		"babel-plugin-remove-test-ids": "^1.1.0",
 		"babel-preset-gatsby": "^1.2.0",
-		"cypress": "^6.8.0",
+		"cypress": "^6.9.1",
 		"cypress-image-snapshot": "^4.0.1",
 		"eslint": "^6.5.1",
 		"eslint-config-standard": "^14.1.1",
