@@ -1,3 +1,10 @@
+## 1.5.3 (2021-04-10)
+
+
+### Bug Fixes
+
+* remove commit hash from changelog
+
 ## 1.5.2 (2021-04-10)
 
 
@@ -947,6 +954,3 @@
 ### Bug Fixes
 
 * **resume:** reword DevOps level
-
-
-
