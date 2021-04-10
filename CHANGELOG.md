@@ -1,3 +1,12 @@
+## [1.4.9](https://github.com/kvadevack/site/compare/v1.4.8...v1.4.9) (2021-04-10)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-image from 3.1.0 to 3.2.0 ([3784aad](https://github.com/kvadevack/site/commit/3784aade1bcd9f7884ea11ee1796d7c20b996662))
+* **deps:** bump gatsby-plugin-feed from 2.13.0 to 2.13.1 ([de92880](https://github.com/kvadevack/site/commit/de92880c7d0199aff50526060712dcd095cc665d))
+* **deps:** bump gatsby-remark-images from 3.11.0 to 3.11.1 ([a816aa5](https://github.com/kvadevack/site/commit/a816aa51cd9b0d9cee040970c31a29cc601f6eb1))
+
 ## [1.4.8](https://github.com/kvadevack/site/compare/v1.4.7...v1.4.8) (2021-04-03)
 
 
