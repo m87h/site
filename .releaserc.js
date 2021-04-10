@@ -14,7 +14,8 @@ const commitPartial = `*{{#if scope}} **{{scope}}:**
   {{~subject}}
 {{~else}}
   {{~header}}
-{{~/if}} ({{~shortHash}})
+{{~/if}}
+
 `;
 
 module.exports = {
