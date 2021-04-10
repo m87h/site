@@ -9,9 +9,9 @@ module.exports = {
 		social: {
 			twitter: 'kvadevack',
 			github: 'kvadevack',
+			replit: 'kvadevack',
 			matrix: 'kvadevack:kvadevack.se'
 		},
-		repo: 'kvadevack/site',
 	},
 	plugins: [
 		'gatsby-plugin-feed',
