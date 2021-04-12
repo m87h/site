@@ -23,7 +23,7 @@
 		"gatsby-image": "^3.2.0",
 		"gatsby-plugin-feed": "^2.13.1",
 		"gatsby-plugin-less": "^4.6.0",
-		"gatsby-plugin-manifest": "^2.6.1",
+		"gatsby-plugin-manifest": "^2.12.1",
 		"gatsby-plugin-offline": "^3.10.2",
 		"gatsby-plugin-react-helmet": "^3.3.3",
 		"gatsby-plugin-robots-txt": "^1.5.1",
