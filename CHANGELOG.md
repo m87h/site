@@ -1,3 +1,10 @@
+## 1.5.4 (2021-04-12)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-plugin-manifest from 2.12.0 to 2.12.1
+
 ## 1.5.3 (2021-04-10)
 
 
