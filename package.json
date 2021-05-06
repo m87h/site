@@ -19,8 +19,8 @@
 		"new:post": "yo ./generators/post"
 	},
 	"dependencies": {
-		"gatsby": "^2.32.11",
-		"gatsby-image": "^3.3.0",
+		"gatsby": "^2.32.13",
+		"gatsby-image": "^3.4.0",
 		"gatsby-plugin-feed": "^2.13.1",
 		"gatsby-plugin-less": "^4.6.0",
 		"gatsby-plugin-manifest": "^2.12.1",
@@ -57,7 +57,7 @@
 		"@semantic-release/changelog": "^5.0.1",
 		"@semantic-release/git": "^9.0.0",
 		"@testing-library/cypress": "^7.0.6",
-		"@testing-library/jest-dom": "^5.11.9",
+		"@testing-library/jest-dom": "^5.11.10",
 		"@testing-library/react": "^11.2.6",
 		"babel-core": "^7.0.0-bridge.0",
 		"babel-eslint": "^10.1.0",
@@ -86,13 +86,13 @@
 		"mime": "^2.5.2",
 		"mkdirp": "^1.0.4",
 		"npm-run-all": "^4.1.5",
-		"puppeteer": "^8.0.0",
+		"puppeteer": "^9.0.0",
 		"regenerator-runtime": "^0.13.3",
 		"rimraf": "^3.0.0",
 		"semantic-release": "^17.4.2",
 		"slugify": "^1.5.0",
 		"start-server-and-test": "^1.12.1",
 		"yeoman-generator": "^5.2.0",
-		"yo": "^3.1.0"
+		"yo": "^4.1.0"
 	}
 }
