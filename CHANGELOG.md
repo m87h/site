@@ -1,3 +1,11 @@
+## 1.5.6 (2021-05-06)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby from 2.32.11 to 2.32.13
+* **deps:** bump gatsby-image from 3.3.0 to 3.4.0
+
 ## 1.5.5 (2021-04-26)
 
 
