@@ -93,6 +93,6 @@
 		"slugify": "^1.5.0",
 		"start-server-and-test": "^1.12.1",
 		"yeoman-generator": "^5.2.0",
-		"yo": "^3.1.0"
+		"yo": "^4.1.0"
 	}
 }
