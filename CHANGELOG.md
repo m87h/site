@@ -1,3 +1,11 @@
+## 1.5.7 (2021-05-11)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-plugin-sharp from 2.14.3 to 2.14.4
+* **deps:** bump mermaid from 8.9.2 to 8.10.1
+
 ## 1.5.6 (2021-05-06)
 
 
