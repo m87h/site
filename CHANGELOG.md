@@ -1,3 +1,11 @@
+## 1.5.8 (2021-05-15)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-image from 3.4.0 to 3.5.0
+* **deps:** bump gatsby-plugin-robots-txt from 1.5.6 to 1.6.2
+
 ## 1.5.7 (2021-05-11)
 
 
