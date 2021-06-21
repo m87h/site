@@ -91,7 +91,7 @@
 		"rimraf": "^3.0.0",
 		"semantic-release": "^17.4.3",
 		"slugify": "^1.5.2",
-		"start-server-and-test": "^1.12.1",
+		"start-server-and-test": "^1.12.5",
 		"yeoman-generator": "^5.2.0",
 		"yo": "^4.1.0"
 	}
