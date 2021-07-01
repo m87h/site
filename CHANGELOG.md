@@ -1,3 +1,11 @@
+## 1.5.10 (2021-07-01)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-image from 3.5.0 to 3.8.0
+* **deps:** bump prismjs from 1.23.0 to 1.24.0
+
 ## 1.5.9 (2021-07-01)
 
 
