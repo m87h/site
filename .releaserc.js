@@ -31,7 +31,6 @@ module.exports = {
 		['@semantic-release/git', {
 			assets: ['CHANGELOG.md', 'package.json', 'package-lock.json']
 		}],
-		'@saithodev/semantic-release-backmerge',
 		['@semantic-release/github', {
 			successComment: false,
 			releasedLabels: false,
