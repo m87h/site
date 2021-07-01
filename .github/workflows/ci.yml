@@ -20,7 +20,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-
     - name: Setup Node.js
-      uses: actions/setup-node@v2.1.5
+      uses: actions/setup-node@v2.2.0
       with:
         node-version: 12.13.1
     - name: Install dependencies
@@ -33,7 +33,7 @@ jobs:
         PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
         CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
     - name: Upload coverage report
-      uses: codecov/codecov-action@v1.5.0
+      uses: codecov/codecov-action@v1.5.2
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
     - name: Deploy
