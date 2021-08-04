@@ -63,7 +63,7 @@
 		"babel-eslint": "^10.1.0",
 		"babel-jest": "^27.0.6",
 		"babel-plugin-remove-test-ids": "^1.1.0",
-		"babel-preset-gatsby": "^1.8.0",
+		"babel-preset-gatsby": "^1.10.0",
 		"cypress": "^7.6.0",
 		"cypress-image-snapshot": "^4.0.1",
 		"eslint": "^6.5.1",
