@@ -1,3 +1,12 @@
+## 1.5.11 (2021-09-02)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-image from 3.8.0 to 3.11.0
+* **deps:** bump gatsby-plugin-robots-txt from 1.6.2 to 1.6.9
+* **deps:** bump mermaid from 8.11.0 to 8.12.0
+
 ## 1.5.10 (2021-07-01)
 
 
