@@ -1,3 +1,12 @@
+## 1.5.12 (2021-10-07)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-plugin-robots-txt from 1.6.9 to 1.6.10
+* **deps:** bump mermaid from 8.12.0 to 8.13.2
+* **deps:** bump prismjs from 1.24.0 to 1.24.1
+
 ## 1.5.11 (2021-09-02)
 
 
