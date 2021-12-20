@@ -90,7 +90,7 @@
 		"regenerator-runtime": "^0.13.9",
 		"rimraf": "^3.0.0",
 		"semantic-release": "^18.0.1",
-		"slugify": "^1.6.3",
+		"slugify": "^1.6.4",
 		"start-server-and-test": "^1.14.0",
 		"yeoman-generator": "^5.4.2",
 		"yo": "^4.3.0"
