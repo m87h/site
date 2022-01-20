@@ -38,7 +38,7 @@ module.exports = {
 		{
 			prepare: () => execa('npm', ['run', 'build'], { stdio: 'inherit' }),
 			publish: () => promisify(ghpages.publish)('public', {
-				repo: `https://${process.env.GITHUB_TOKEN}@github.com/kvadevack/kvadevack.github.io.git`,
+				repo: `https://${process.env.GITHUB_TOKEN}@github.com/flygsand/flygsand.github.io.git`,
 				branch: 'master',
 				silent: true,
 				dotfiles: true
