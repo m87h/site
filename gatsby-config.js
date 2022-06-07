@@ -9,7 +9,6 @@ module.exports = {
 			twitter: 'kvadevack',
 			github: 'kvadevack',
 			replit: 'kvadevack',
-			matrix: 'kvadevack:kvadevack.se'
 		},
 	},
 	plugins: [
