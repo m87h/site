@@ -2,12 +2,12 @@ module.exports = {
 	siteMetadata: {
 		title: 'Martin Häger',
 		description: 'Full-stack software developer with DevOps experience. Blogging about programming, video games, music, electronics engineering, and all things DIY.',
-		siteUrl: 'https://kvadevack.se',
+		siteUrl: 'https://flygsand.dev',
 		author: 'Martin Häger',
 		email: 'martin.haeger@gmail.com',
 		social: {
-			twitter: 'kvadevack',
-			github: 'kvadevack',
+			twitter: 'Flygsand',
+			github: 'Flygsand',
 			replit: 'kvadevack',
 		},
 	},
@@ -17,7 +17,7 @@ module.exports = {
 		{
 			resolve: 'gatsby-plugin-manifest',
 			options: {
-				name: 'Kvadevack',
+				name: 'Flygsand',
 				display: 'standalone',
 				start_url: '/',
 				background_color: 'floralwhite',
