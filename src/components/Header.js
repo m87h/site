@@ -34,7 +34,6 @@ const Header = () => (
 				<>
 					<Button as='a' basic icon='twitter' href={`https://twitter.com/${social.twitter}`} content='Twitter' />
 					<Button as='a' basic icon='github' href={`https://github.com/${social.github}`} content='GitHub' />
-					<Button as='a' basic icon='comments' href={`https://matrix.to/#/@${social.matrix}`} content='Matrix' />
 				</>
 			);
 
