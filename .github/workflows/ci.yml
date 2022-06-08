@@ -28,7 +28,7 @@ jobs:
       env:
         PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
     - name: Run checks
-      run: xvfb-run --auto-servernum --server-args="-screen 0 1024x768x24" npx run-p lint spellcheck test
+      run: xvfb-run --auto-servernum --server-args="-screen 0 1024x768x24" npx run-p --npm-path npm lint spellcheck test
       env:
         PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
         CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
