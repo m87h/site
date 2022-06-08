@@ -1,6 +1,9 @@
+const package = require('./package.json');
+
 module.exports = {
 	siteMetadata: {
 		title: 'Martin Häger',
+		version: package.version,
 		description: 'Full-stack software developer with DevOps experience. Blogging about programming, video games, music, electronics engineering, and all things DIY.',
 		siteUrl: 'https://flygsand.dev',
 		author: 'Martin Häger',
@@ -12,7 +15,57 @@ module.exports = {
 		},
 	},
 	plugins: [
-		'gatsby-plugin-feed',
+		{
+			resolve: 'gatsby-plugin-feed',
+			options: {
+				query: `
+					{
+						site {
+							siteMetadata {
+								title
+								description
+								siteUrl
+							}
+						}
+					}
+				`,
+				feeds: [{
+					serialize: ({ query: { site, allMarkdownRemark } }) => {
+						return allMarkdownRemark.edges.map(edge => {
+							return Object.assign({}, edge.node.frontmatter, {
+								description: edge.node.excerpt,
+								date: edge.node.frontmatter.date,
+								url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+								guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+								custom_elements: [{ 'content:encoded': edge.node.html }],
+							})
+						})
+					},
+					query: `
+						{
+							allMarkdownRemark(
+								sort: { order: DESC, fields: [frontmatter___date] },
+							) {
+								edges {
+									node {
+										excerpt
+										html
+										fields { slug }
+										frontmatter {
+											title
+											date
+										}
+									}
+								}
+							}
+						}
+					`,
+					output: '/rss.xml',
+					title: 'Martin Häger',
+				}],
+			},
+		},
+		'gatsby-plugin-image',
 		'gatsby-plugin-less',
 		{
 			resolve: 'gatsby-plugin-manifest',

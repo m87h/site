@@ -2,21 +2,20 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import { Segment } from 'semantic-ui-react';
 
-import { version } from '../../package';
-
 const Footer = ({ ...props }) => (
 	<StaticQuery
 		query={graphql`
 			query {
 				site {
 					siteMetadata {
+						version
 						author
 					}
 				}
 			}
 		`}
 		render={({ site }) => {
-			const { author } = site.siteMetadata;
+			const { version, author } = site.siteMetadata;
 
 			return (
 				<Segment basic {...props}>
