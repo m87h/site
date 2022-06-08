@@ -5,7 +5,7 @@ import { Segment, Header, Divider } from 'semantic-ui-react';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 
-export default ({ pageContext, data }) => {
+const PostTemplate = ({ pageContext, data }) => {
 	const post = data.markdownRemark;
 	const { social } = data.site.siteMetadata;
 	const { slug, hasExample } = pageContext;
@@ -41,6 +41,8 @@ export default ({ pageContext, data }) => {
 		</Layout>
 	);
 };
+
+export default PostTemplate;
 
 export const pageQuery = graphql`
 	query($slug: String!) {
