@@ -73,7 +73,7 @@
 		"identity-obj-proxy": "^3.0.0",
 		"is-ci": "^3.0.1",
 		"jest": "^28.1.1",
-		"jsonresume-theme-rocketspacer": "git+https://github.com/Flygsand/jsonresume-theme-rocketspacer.git",
+		"jsonresume-theme-rocketspacer": "github:Flygsand/jsonresume-theme-rocketspacer",
 		"markdown-spellcheck": "^1.3.1",
 		"mime": "^3.0.0",
 		"mkdirp": "^1.0.4",
