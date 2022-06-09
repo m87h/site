@@ -7,7 +7,7 @@ import { capitalizeFirstLetter } from '../util';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 
-export default ({ pageContext, data }) => {
+const PageTemplate = ({ pageContext, data }) => {
 	const page = data.markdownRemark;
 	const title = page.frontmatter.title ? page.frontmatter.title : capitalizeFirstLetter(pageContext.slug.toLowerCase());
 
@@ -21,6 +21,8 @@ export default ({ pageContext, data }) => {
 		</Layout>
 	);
 };
+
+export default PageTemplate;
 
 export const pageQuery = graphql`
 	query($slug: String!) {

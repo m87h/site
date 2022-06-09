@@ -7,7 +7,7 @@ import Pagination from '../components/Pagination';
 import SEO from '../components/SEO';
 import Tag from '../components/Tag';
 
-export default ({ data, pageContext }) => {
+const BlogTemplate = ({ data, pageContext }) => {
 	const posts = data.allMarkdownRemark.edges;
 	const { pageNumber, totalPages } = pageContext;
 
@@ -57,6 +57,8 @@ export default ({ data, pageContext }) => {
 		</Layout>
 	);
 };
+
+export default BlogTemplate;
 
 export const pageQuery = graphql`
 	query($skip: Int!, $limit: Int!) {

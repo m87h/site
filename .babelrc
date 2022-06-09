@@ -1,8 +1,0 @@
-{
-	"presets": ["gatsby"],
-	"env": {
-		"production": {
-			"plugins": ["remove-test-ids"]
-		}
-	}
-}

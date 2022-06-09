@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql, Link } from 'gatsby';
 import { Card, Button } from 'semantic-ui-react';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 const Header = () => (
 	<StaticQuery
@@ -9,42 +9,38 @@ const Header = () => (
 			query {
 				site {
 					siteMetadata {
-						author
+						title
 						description
 						social {
 							twitter
 							github
-							matrix
 						}
 					}
 				}
 
-				avatar: file(relativePath: { eq: "images/avatar.jpg" }) {
+				avatar: file(relativePath: { eq: "images/shinigami.png" }) {
 					childImageSharp {
-						fluid(maxWidth: 398, quality: 100) {
-							...GatsbyImageSharpFluid_noBase64
-						}
+						gatsbyImageData(layout: CONSTRAINED, width: 398)
 					}
 				}
 			}
 		`}
 		render={({ site, avatar }) => {
-			const { author, description, social } = site.siteMetadata;
+			const { title, description, social } = site.siteMetadata;
 			const SocialButtons = () => (
 				<>
 					<Button as='a' basic icon='twitter' href={`https://twitter.com/${social.twitter}`} content='Twitter' />
 					<Button as='a' basic icon='github' href={`https://github.com/${social.github}`} content='GitHub' />
-					<Button as='a' basic icon='comments' href={`https://matrix.to/#/@${social.matrix}`} content='Matrix' />
 				</>
 			);
 
 			return (
 				<Card raised fluid style={{ overflow: 'hidden' }}>
-					<Link to='/'>
-						<Img className='mobile hidden' fluid={avatar.childImageSharp.fluid} />
+					<Link to='/' style={{backgroundColor: 'currentcolor'}}>
+						<GatsbyImage className='mobile hidden' alt='profile picture' image={avatar.childImageSharp.gatsbyImageData} />
 					</Link>
 					<Card.Content>
-						<Card.Header>{author}</Card.Header>
+						<Card.Header>{title}</Card.Header>
 						<Card.Description>{description}</Card.Description>
 					</Card.Content>
 					<Card.Content extra style={{ textAlign: 'center' }}>

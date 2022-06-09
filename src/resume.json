@@ -5,7 +5,7 @@
 		"picture": "../assets/images/photo.jpg",
 		"email": "martin.haeger@gmail.com",
 		"phone": "+46 (0) 723 071630",
-		"website": "https://kvadevack.se",
+		"website": "https://flygsand.dev",
 		"summary": "Holds a B Driver's License.",
 		"location": {
 			"address": "Staveredsgatan 18",
@@ -16,11 +16,11 @@
 		"profiles":[
 			{
 				"network": "GitHub",
-				"url": "https://github.com/kvadevack"
+				"url": "https://github.com/Flygsand"
 			},
 			{
 				"network": "Resume (Latest Version)",
-				"url": "https://kvadevack.se/resume"
+				"url": "https://flygsand.dev/resume"
 			}
 		]
 	},

@@ -9,31 +9,31 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - name: Checkout
-      uses: actions/checkout@v2.4.0
+      uses: actions/checkout@v3.0.2
     - name: Setup cache
-      uses: actions/cache@v2.1.7
+      uses: actions/cache@v3.0.4
       with:
         path: |
           ~/.npm
           ~/.cache
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        key: v2-${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
-          ${{ runner.os }}-
+          v2-${{ runner.os }}-npm-
     - name: Setup Node.js
-      uses: actions/setup-node@v2.5.0
+      uses: actions/setup-node@v3.3.0
       with:
-        node-version: 12.13.1
+        node-version: 16.13.1
     - name: Install dependencies
       run: npm ci
       env:
         PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
     - name: Run checks
-      run: xvfb-run --auto-servernum --server-args="-screen 0 1024x768x24" npx run-p lint spellcheck test
+      run: xvfb-run --auto-servernum --server-args="-screen 0 1024x768x24" npx run-s --npm-path npm lint spellcheck test
       env:
         PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
         CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
     - name: Upload coverage report
-      uses: codecov/codecov-action@v2.1.0
+      uses: codecov/codecov-action@v3.1.0
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
     - name: Deploy

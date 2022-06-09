@@ -11,7 +11,7 @@ import Skill from '../components/resume/Skill';
 import Language from '../components/resume/Language';
 import resume from '../resume';
 
-export default () => (
+const ResumePage = () => (
 	<Layout>
 		<SEO title='Resume' />
 		<Segment raised>
@@ -69,3 +69,5 @@ export default () => (
 		</Segment>
 	</Layout>
 );
+
+export default ResumePage;
