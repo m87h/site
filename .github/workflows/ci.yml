@@ -16,9 +16,9 @@ jobs:
         path: |
           ~/.npm
           ~/.cache
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        key: v2-${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
-          ${{ runner.os }}-
+          v2-${{ runner.os }}-npm-
     - name: Setup Node.js
       uses: actions/setup-node@v3.3.0
       with:
