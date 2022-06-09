@@ -14,7 +14,13 @@ module.exports = {
 			replit: 'kvadevack',
 		},
 	},
-	plugins: [
+	plugins: [{
+		resolve: 'eslint-plugin-gatsby',
+			options: {
+				extensions: ['js'],
+				failOnError: false,
+			},
+		},
 		{
 			resolve: 'gatsby-plugin-feed',
 			options: {
