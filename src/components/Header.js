@@ -9,7 +9,7 @@ const Header = () => (
 			query {
 				site {
 					siteMetadata {
-						author
+						title
 						description
 						social {
 							twitter
@@ -18,7 +18,7 @@ const Header = () => (
 					}
 				}
 
-				avatar: file(relativePath: { eq: "images/avatar.jpg" }) {
+				avatar: file(relativePath: { eq: "images/shinigami.png" }) {
 					childImageSharp {
 						gatsbyImageData(layout: CONSTRAINED, width: 398)
 					}
@@ -26,7 +26,7 @@ const Header = () => (
 			}
 		`}
 		render={({ site, avatar }) => {
-			const { author, description, social } = site.siteMetadata;
+			const { title, description, social } = site.siteMetadata;
 			const SocialButtons = () => (
 				<>
 					<Button as='a' basic icon='twitter' href={`https://twitter.com/${social.twitter}`} content='Twitter' />
@@ -36,11 +36,11 @@ const Header = () => (
 
 			return (
 				<Card raised fluid style={{ overflow: 'hidden' }}>
-					<Link to='/'>
+					<Link to='/' style={{backgroundColor: 'currentcolor'}}>
 						<GatsbyImage className='mobile hidden' alt='profile picture' image={avatar.childImageSharp.gatsbyImageData} />
 					</Link>
 					<Card.Content>
-						<Card.Header>{author}</Card.Header>
+						<Card.Header>{title}</Card.Header>
 						<Card.Description>{description}</Card.Description>
 					</Card.Content>
 					<Card.Content extra style={{ textAlign: 'center' }}>

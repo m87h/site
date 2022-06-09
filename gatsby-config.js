@@ -2,9 +2,9 @@ const package = require('./package.json');
 
 module.exports = {
 	siteMetadata: {
-		title: 'Martin Häger',
+		title: 'flygsand.dev',
 		version: package.version,
-		description: 'Full-stack software developer with DevOps experience. Blogging about programming, video games, music, electronics engineering, and all things DIY.',
+		description: 'Blogging about programming, video games, music, electronics engineering, and all things DIY.',
 		siteUrl: 'https://flygsand.dev',
 		author: 'Martin Häger',
 		email: 'martin.haeger@gmail.com',
@@ -67,7 +67,7 @@ module.exports = {
 						}
 					`,
 					output: '/rss.xml',
-					title: 'Martin Häger',
+					title: 'flygsand.dev',
 				}],
 			},
 		},
