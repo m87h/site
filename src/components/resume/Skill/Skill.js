@@ -6,7 +6,7 @@ import { ALL_ICONS_IN_ALL_CONTEXTS } from 'semantic-ui-react/dist/commonjs/lib/S
 import SkillGroup from './SkillGroup';
 
 const Skill = ({ name, level, keywords }) => (
-	<Item>
+	<Item style={{marginBottom: '2em'}}>
 		<Item.Content>
 			<Item.Header>{ name }</Item.Header>
 			<Item.Description>{level}</Item.Description>

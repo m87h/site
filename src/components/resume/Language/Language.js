@@ -5,7 +5,7 @@ import { Item } from 'semantic-ui-react';
 import LanguageGroup from './LanguageGroup';
 
 const Language = ({ language, fluency }) => (
-	<Item>
+	<Item style={{marginBottom: '2em'}}>
 		<Item.Content>
 			<Item.Header>{language}</Item.Header>
 			<Item.Description>{fluency}</Item.Description>
