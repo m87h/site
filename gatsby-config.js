@@ -135,6 +135,7 @@ module.exports = {
 						resolve: 'gatsby-remark-images',
 						options: {
 							showCaptions: true,
+							linkImagesToOriginal: false,
 						},
 					},
 					'gatsby-remark-copy-linked-files',
@@ -144,6 +145,12 @@ module.exports = {
 							target: '_self',
 						},
 					},
+					{
+						resolve: 'gatsby-remark-images-medium-zoom',
+						options: {
+							background: 'rgba(255, 255, 255, 0.9)',
+						},
+					}
 				],
 			},
 		},
