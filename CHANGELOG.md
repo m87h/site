@@ -9,6 +9,23 @@
 * **deps:** bump semantic-ui-react from 2.0.3 to 2.1.3
 * **deps:** update production dependencies
 * **layout:** change branding
+* **layout:** minor style tweaks and corrections
+* **rss:** proper RSS URLs
+* **site:** New domain and social
+* **site:** Remove Matrix
+* **styles:** remove box shadow from highlight theme
+
+## 1.5.13 (2022-06-10)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-plugin-robots-txt from 1.6.10 to 1.6.14
+* **deps:** bump less from 4.1.1 to 4.1.2
+* **deps:** bump mermaid from 8.13.2 to 8.13.6
+* **deps:** bump semantic-ui-react from 2.0.3 to 2.1.3
+* **deps:** update production dependencies
+* **layout:** change branding
 * **rss:** proper RSS URLs
 * **site:** New domain and social
 * **site:** Remove Matrix
