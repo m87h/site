@@ -8,7 +8,7 @@ import AwardGroup from './AwardGroup';
 const formatDate = d => moment(d).format('MMM YYYY');
 
 const Award = ({ title, date, awarder, summary }) => (
-	<Item>
+	<Item style={{marginBottom: '2em'}}>
 		<Item.Content>
 			<Item.Header>{title}</Item.Header>
 			<Item.Meta>{awarder}</Item.Meta>

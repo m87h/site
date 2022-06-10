@@ -8,7 +8,7 @@ import EducationGroup from './EducationGroup';
 const formatDate = d => moment(d).format('MMM YYYY');
 
 const Education = ({ institution, area, studyType, startDate, endDate }) => (
-	<Item>
+	<Item style={{marginBottom: '2em'}}>
 		<Item.Content>
 			<Item.Header>{institution}</Item.Header>
 			<Item.Meta>{studyType} {area}</Item.Meta>

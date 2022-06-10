@@ -12,12 +12,12 @@ const Layout = ({ children }) => {
 	return (
 		<Grid container stackable>
 			<Grid.Row>
-				<Grid.Column width={5} id='foo'>
+				<Grid.Column width={4} id='foo'>
 					<Header/>
 					<Navigation/>
 					<Footer className='mobile hidden' />
 				</Grid.Column>
-				<Grid.Column width={11}>
+				<Grid.Column width={12}>
 					{children}
 				</Grid.Column>
 			</Grid.Row>

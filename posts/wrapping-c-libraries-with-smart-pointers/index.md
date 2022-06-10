@@ -20,7 +20,8 @@ The actual definition of `struct SDL_Renderer` is omitted from the header files.
 function declarations, most notably the "constructor" and "destructor":
 
 ```c
-extern DECLSPEC SDL_Renderer * SDLCALL SDL_CreateRenderer(SDL_Window * window, int index, Uint32 flags);
+extern DECLSPEC SDL_Renderer * SDLCALL
+	SDL_CreateRenderer(SDL_Window * window, int index, Uint32 flags);
 extern DECLSPEC void SDLCALL SDL_DestroyRenderer(SDL_Renderer * renderer);
 ```
 
@@ -46,15 +47,18 @@ template<typename Creator, typename Destructor, typename... Arguments>
 auto Create(Creator c, Destructor d, Arguments&&... args) {
 	auto r = c(::std::forward<Arguments>(args)...);
 	if (!r) {
-		throw ::std::system_error(errno, ::std::generic_category(), SDL_GetError());
+		throw ::std::system_error(
+			errno, ::std::generic_category(), SDL_GetError());
 	}
 	return ::std::unique_ptr<::std::decay_t<decltype(*r)>, decltype(d)>(r, d);
 }
 
-using Renderer = std::unique_ptr<SDL_Renderer, decltype(&SDL_DestroyRenderer)>;
+using Renderer =
+	std::unique_ptr<SDL_Renderer, decltype(&SDL_DestroyRenderer)>;
 
 inline Renderer CreateRenderer(SDL_Window* window, int index, Uint32 flags) {
-	return Create(SDL_CreateRenderer, SDL_DestroyRenderer, window, index, flags);
+	return Create(
+		SDL_CreateRenderer, SDL_DestroyRenderer, window, index, flags);
 }
 ```
 
