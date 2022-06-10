@@ -8,7 +8,7 @@ import WorkGroup from './WorkGroup';
 const formatDate = d => moment(d).format('MMM YYYY');
 
 const Work = ({ company, position, website, startDate, endDate, summary, highlights }) => (
-	<Item>
+	<Item style={{marginBottom: '2em'}}>
 		<Item.Content>
 			<Item.Header>
 				{company}

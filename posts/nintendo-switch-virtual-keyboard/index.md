@@ -9,7 +9,7 @@ two components, it should be straightforward to implement a makeshift web browse
 
 `embed:nintendo-switch-virtual-keyboard/main.c`
 
-##Screenshots
+## Screenshots
 
 ![Text input](./2019012320041100-50E2A11CE4BDDC72EF99DF78315D4938.jpg)
 

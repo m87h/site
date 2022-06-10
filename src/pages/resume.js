@@ -51,18 +51,6 @@ const ResumePage = () => (
 			</Skill.Group>
 			<Divider />
 
-			<Header as='h2'>Languages</Header>
-			<Language.Group>
-				{resume.languages.map((l, i) => (
-					<Language key={i} {...l} />
-				))}
-			</Language.Group>
-			<Divider />
-
-			<Header as='h2'>About</Header>
-			<p>{resume.basics.summary}</p>
-			<Divider />
-
 			<p>
 				<em>This resume is also available in <a href="/resume.pdf">PDF format</a>.</em>
 			</p>

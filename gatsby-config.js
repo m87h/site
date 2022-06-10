@@ -4,7 +4,7 @@ module.exports = {
 	siteMetadata: {
 		title: 'flygsand.dev',
 		version: package.version,
-		description: 'Blogging about programming, video games, music, electronics engineering, and all things DIY.',
+		description: 'Programming, video games, music, electronics engineering, and all things DIY.',
 		siteUrl: 'https://flygsand.dev',
 		author: 'Martin Häger',
 		email: 'martin.haeger@gmail.com',
