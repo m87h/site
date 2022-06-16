@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import { Segment, Header, Divider } from 'semantic-ui-react';
 
 import Layout from '../components/Layout';
-import SEO from '../components/SEO';
+import Head from '../components/Head';
 
 const PostTemplate = ({ pageContext, data }) => {
 	const post = data.markdownRemark;
@@ -12,7 +12,7 @@ const PostTemplate = ({ pageContext, data }) => {
 
 	return (
 		<Layout>
-			<SEO title={post.frontmatter.title} />
+			<Head title={post.frontmatter.title} />
 			<Segment raised>
 				<Header as='h1'>
 					{post.frontmatter.title}

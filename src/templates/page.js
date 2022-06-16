@@ -5,7 +5,7 @@ import { Segment, Header } from 'semantic-ui-react';
 import { capitalizeFirstLetter } from '../util';
 
 import Layout from '../components/Layout';
-import SEO from '../components/SEO';
+import Head from '../components/Head';
 
 const PageTemplate = ({ pageContext, data }) => {
 	const page = data.markdownRemark;
@@ -13,7 +13,7 @@ const PageTemplate = ({ pageContext, data }) => {
 
 	return (
 		<Layout>
-			<SEO title={title} />
+			<Head title={title} />
 			<Segment raised>
 				<Header as='h1'>{title}</Header>
 				<div dangerouslySetInnerHTML={{ __html: page.html }}></div>

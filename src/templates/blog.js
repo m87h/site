@@ -4,7 +4,7 @@ import { Card, Button } from 'semantic-ui-react';
 
 import Layout from '../components/Layout';
 import Pagination from '../components/Pagination';
-import SEO from '../components/SEO';
+import Head from '../components/Head';
 import Tag from '../components/Tag';
 
 const BlogTemplate = ({ data, pageContext }) => {
@@ -13,7 +13,7 @@ const BlogTemplate = ({ data, pageContext }) => {
 
 	return (
 		<Layout>
-			<SEO title='Blog' />
+			<Head title='Blog' />
 			{posts.length > 0 ?
 				posts.map(({ node }) => {
 					const { title, tags } = node.frontmatter;
