@@ -19,7 +19,7 @@
 		"new:post": "yo ./generators/post"
 	},
 	"dependencies": {
-		"gatsby": "^4.16.0",
+		"gatsby": "^4.17.0",
 		"gatsby-plugin-feed": "^4.16.0",
 		"gatsby-plugin-image": "^2.16.1",
 		"gatsby-plugin-less": "^6.16.0",
