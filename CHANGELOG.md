@@ -1,3 +1,10 @@
+## 1.5.14 (2022-06-10)
+
+
+### Bug Fixes
+
+* **style:** add medium-zoom to images
+
 ## 1.5.13 (2022-06-10)
 
 
