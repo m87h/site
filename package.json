@@ -28,7 +28,7 @@
 		"gatsby-plugin-react-helmet": "^5.16.0",
 		"gatsby-plugin-robots-txt": "^1.7.1",
 		"gatsby-plugin-sharp": "^4.17.0",
-		"gatsby-plugin-sitemap": "^5.16.0",
+		"gatsby-plugin-sitemap": "^5.17.0",
 		"gatsby-remark-copy-linked-files": "^5.16.0",
 		"gatsby-remark-draw": "^1.0.16",
 		"gatsby-remark-embed-snippet": "^7.16.0",
