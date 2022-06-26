@@ -1,3 +1,33 @@
+## 1.5.15 (2022-06-26)
+
+
+### Bug Fixes
+
+* **changelog:** concat dual 1.5.13 entries
+* **deps:** bump gatsby from 4.16.0 to 4.17.0
+* **deps:** bump gatsby from 4.17.0 to 4.17.1
+* **deps:** bump gatsby-plugin-feed from 4.16.0 to 4.17.0
+* **deps:** bump gatsby-plugin-image from 2.16.1 to 2.17.0
+* **deps:** bump gatsby-plugin-less from 6.16.0 to 6.17.0
+* **deps:** bump gatsby-plugin-manifest from 4.16.0 to 4.17.0
+* **deps:** bump gatsby-plugin-offline from 5.16.0 to 5.17.0
+* **deps:** bump gatsby-plugin-react-helmet from 5.16.0 to 5.17.0
+* **deps:** bump gatsby-plugin-sharp from 4.16.1 to 4.17.0
+* **deps:** bump gatsby-plugin-sitemap from 5.16.0 to 5.17.0
+* **deps:** bump gatsby-remark-copy-linked-files from 5.16.0 to 5.17.0
+* **deps:** bump gatsby-remark-embed-snippet from 7.16.0 to 7.17.0
+* **deps:** bump gatsby-remark-embed-video from 3.1.1 to 3.1.4
+* **deps:** bump gatsby-remark-images from 6.16.0 to 6.17.0
+* **deps:** bump gatsby-remark-prismjs from 6.16.0 to 6.17.0
+* **deps:** bump gatsby-remark-responsive-iframe from 5.16.0 to 5.17.0
+* **deps:** bump gatsby-source-filesystem from 4.16.0 to 4.17.0
+* **deps:** bump gatsby-transformer-remark from 5.16.0 to 5.17.0
+* **deps:** bump gatsby-transformer-sharp from 4.16.0 to 4.17.0
+* **deps:** bump mermaid from 9.1.1 to 9.1.2
+* **deps:** bump react from 18.1.0 to 18.2.0
+* **deps:** bump react-dom from 18.1.0 to 18.2.0
+* **layout:** minor style tweaks and corrections
+
 ## 1.5.14 (2022-06-10)
 
 
