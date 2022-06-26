@@ -2,18 +2,17 @@ import React from 'react';
 import { Segment, Header, Divider } from 'semantic-ui-react';
 
 import Layout from '../components/Layout';
-import SEO from '../components/SEO';
+import Head from '../components/Head';
 import Basics from '../components/resume/Basics';
 import Work from '../components/resume/Work';
 import Education from '../components/resume/Education';
 import Award from '../components/resume/Award';
 import Skill from '../components/resume/Skill';
-import Language from '../components/resume/Language';
 import resume from '../resume';
 
 const ResumePage = () => (
 	<Layout>
-		<SEO title='Resume' />
+		<Head title='Resume' />
 		<Segment raised>
 			<Basics {...resume.basics} />
 			<Divider />
