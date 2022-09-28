@@ -20,7 +20,7 @@ jobs:
         restore-keys: |
           v4-${{ runner.os }}-npm-
     - name: Setup Node.js
-      uses: actions/setup-node@v3.3.0
+      uses: actions/setup-node@v3.5.0
       with:
         node-version: 16.13.1
     - name: Install dependencies
