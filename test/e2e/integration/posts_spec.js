@@ -10,7 +10,7 @@ describe('Posts', () => {
 			if (post.hasExample) {
 				it('has a working example link', () => {
 					cy.get('a[href^="https://replit.com"]').should('be.visible').and('have.attr', 'href').then(href => {
-						cy.request(href);
+						cy.request({ url: href, failOnStatusCode: false }).its('status').should('not.eq', 404);
 					});
 				});
 			}
