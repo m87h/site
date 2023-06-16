@@ -14,6 +14,7 @@ module.exports = {
 			replit: 'kvadevack',
 		},
 	},
+	jsxRuntime: 'automatic',
 	plugins: [{
 		resolve: 'eslint-plugin-gatsby',
 			options: {
