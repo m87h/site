@@ -1,4 +1,3 @@
-import React from 'react';
 import { Segment, Menu } from 'semantic-ui-react';
 import { Link } from 'gatsby';
 

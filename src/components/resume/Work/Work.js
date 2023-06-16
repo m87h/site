@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 import { Item, Button } from 'semantic-ui-react';
