@@ -63,7 +63,7 @@ export const pageQuery = graphql`
 	query($skip: Int!, $limit: Int!) {
 		allMarkdownRemark(
 			filter: { fields: { collection: { eq: "posts" } } }
-			sort: { fields: [frontmatter___date], order: DESC }
+			sort: { frontmatter: { date: DESC } }
 			limit: $limit
 			skip: $skip
 		) {
