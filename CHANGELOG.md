@@ -1,3 +1,13 @@
+## 1.5.16 (2023-06-17)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-plugin-react-helmet from 5.17.0 to 5.25.0
+* **deps:** bump gatsby-transformer-sharp from 4.17.0 to 4.25.0
+* **deps:** bump mermaid from 9.4.3 to 10.2.3
+* **deps:** Gatsby v5
+
 ## 1.5.15 (2022-06-26)
 
 
