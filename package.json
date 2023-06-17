@@ -66,7 +66,7 @@
 		"cypress": "^10.11.0",
 		"eslint-plugin-cypress": "^2.13.3",
 		"eslint-plugin-gatsby": "github:Flygsand/gatsby-plugin-eslint-config#de1e191",
-		"execa": "^7.1.1",
+		"execa": "5.1.1",
 		"gatsby-cypress": "^3.11.0",
 		"generator-license": "^5.5.0",
 		"gh-pages": "^5.0.0",
