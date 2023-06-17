@@ -63,7 +63,7 @@ function createPosts({ graphql, actions }) {
 				{
 					allMarkdownRemark(
 						filter: { fields: { collection: { eq: "posts" } } }
-						sort: { fields: [frontmatter___date], order: DESC }, limit: 1000) {
+						sort: { frontmatter: { date: DESC } }, limit: 1000) {
 						edges {
 							node {
 								fields {

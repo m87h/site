@@ -1,4 +1,3 @@
-import React from 'react';
 import { graphql, Link } from 'gatsby';
 import { Grid, Segment, Header } from 'semantic-ui-react';
 import { GatsbyImage } from 'gatsby-plugin-image';

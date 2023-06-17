@@ -2,6 +2,7 @@
 
 set -euo pipefail
 
+declare -A packages
 declare -A excludes
 while getopts ":x:" opt; do
 	case $opt in
@@ -12,10 +13,14 @@ while getopts ":x:" opt; do
 done
 
 shift "$((OPTIND-1))"
+packages=()
+for package in "$@"; do
+	packages[$package]=p
+done
 
-while IFS=: read -u 3 -r _ _ current latest type _; do
+while IFS=: read -u 3 -r _ _ current latest _ type _; do
 	package=${current%@*}
-	if [[ -v excludes[$package] ]] || ! npx semver -r "<${latest##*@}" ${current##*@} >/dev/null; then
+	if [[ -v excludes[$package] ]] || [[ ${#packages[@]} -gt 0 && ! -v packages[$package] ]] || ! npx semver -r "<${latest##*@}" ${current##*@} >/dev/null; then
 		continue
 	fi
 

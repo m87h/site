@@ -1,4 +1,3 @@
-import React from 'react';
 import { Segment, Header, Divider } from 'semantic-ui-react';
 
 import Layout from '../components/Layout';

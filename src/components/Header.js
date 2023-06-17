@@ -1,4 +1,3 @@
-import React from 'react';
 import { StaticQuery, graphql, Link } from 'gatsby';
 import { Card, Button } from 'semantic-ui-react';
 import { GatsbyImage } from 'gatsby-plugin-image';

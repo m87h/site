@@ -1,4 +1,3 @@
-import React from 'react';
 import { graphql } from 'gatsby';
 import { Segment, Header } from 'semantic-ui-react';
 
