@@ -13,7 +13,7 @@ done
 
 shift "$((OPTIND-1))"
 
-while IFS=: read -u 3 -r _ _ current latest type _; do
+while IFS=: read -u 3 -r _ _ current latest _ type _; do
 	package=${current%@*}
 	if [[ -v excludes[$package] ]] || ! npx semver -r "<${latest##*@}" ${current##*@} >/dev/null; then
 		continue
