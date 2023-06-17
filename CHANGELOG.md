@@ -1,3 +1,11 @@
+## 1.5.17 (2023-06-17)
+
+
+### Bug Fixes
+
+* **package:** update prismjs from 1.28.0 to 1.29.0
+* **package:** update semantic-ui-less from 2.4.1 to 2.5.0
+
 ## 1.5.16 (2023-06-17)
 
 
