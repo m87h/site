@@ -85,7 +85,7 @@
 		"slugify": "^1.6.4",
 		"start-server-and-test": "^2.0.0",
 		"yeoman-generator": "^5.9.0",
-		"yo": "^4.3.1"
+		"yo": "^5.1.0"
 	},
 	"overrides": {
 		"react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
