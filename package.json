@@ -16,7 +16,6 @@
 		"test": "run-p test:*",
 		"lint": "NODE_ENV=test eslint --max-warnings=0 generators scripts src test",
 		"cy:run": "(is-ci && cypress run --browser chrome --record) || cypress run --browser chrome --record false",
-		"deploy": "wrangler pages deploy",
 		"new:post": "yo ./generators/post"
 	},
 	"dependencies": {
