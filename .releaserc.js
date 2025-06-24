@@ -33,9 +33,5 @@ module.exports = {
 			successComment: false,
 			releasedLabels: false,
 		}],
-		{
-			prepare: () => execa('npm', ['run', 'build'], { stdio: 'inherit' }),
-			publish: () => execa('npm', ['run', 'deploy'], { stdio: 'inherit' }),
-		},
 	],
 };

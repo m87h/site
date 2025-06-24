@@ -4,6 +4,6 @@ describe('the home page', () => {
 	});
 
 	it('has the correct title', () => {
-		cy.title().should('eq', 'Blog | flygsand.dev');
+		cy.title().should('eq', 'Blog | Martin');
 	});
 });

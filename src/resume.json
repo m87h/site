@@ -3,24 +3,22 @@
 		"name": "Martin Häger",
 		"label": "Software Developer",
 		"picture": "../assets/images/photo.jpg",
-		"email": "martin.haeger@gmail.com",
+		"email": "m@rtin.foo",
 		"phone": "+46 (0) 723 071630",
-		"website": "https://flygsand.dev",
+		"website": "https://ma.rtin.foo",
 		"summary": "Holds a B Driver's License.",
 		"location": {
-			"address": "Staveredsgatan 18",
-			"postalCode": "46131",
 			"city": "Trollhättan",
 			"countryCode": "SE"
 		},
 		"profiles":[
 			{
 				"network": "GitHub",
-				"url": "https://github.com/Flygsand"
+				"url": "https://github.com/haegrr"
 			},
 			{
 				"network": "Resume (Latest Version)",
-				"url": "https://flygsand.dev/resume"
+				"url": "https://ma.rtin.foo/resume"
 			}
 		]
 	},

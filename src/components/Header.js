@@ -11,7 +11,7 @@ const Header = () => (
 						title
 						description
 						social {
-							twitter
+							bluesky
 							github
 						}
 					}
@@ -28,7 +28,7 @@ const Header = () => (
 			const { title, description, social } = site.siteMetadata;
 			const SocialButtons = () => (
 				<>
-					<Button as='a' basic icon='twitter' href={`https://twitter.com/${social.twitter}`} content='Twitter' />
+					<Button as='a' basic icon='hashtag' href={`https://bsky.app/profile/${social.bluesky}`} content='Bluesky' />
 					<Button as='a' basic icon='github' href={`https://github.com/${social.github}`} content='GitHub' />
 				</>
 			);

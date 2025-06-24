@@ -5,7 +5,7 @@ describe('the RSS feed', () => {
 
 	it('has the correct title', () => {
 		cy.get('@feed').should(feed => {
-			expect(feed.find('channel > title').text()).to.equal('flygsand.dev');
+			expect(feed.find('channel > title').text()).to.equal('Martin');
 		});
 	});
 });
