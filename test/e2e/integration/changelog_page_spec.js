@@ -4,6 +4,6 @@ describe('the home page', () => {
 	});
 
 	it('has the correct title', () => {
-		cy.title().should('eq', 'Changelog | ma.rtin.foo');
+		cy.title().should('eq', 'Changelog | Martin');
 	});
 });
