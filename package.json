@@ -16,6 +16,7 @@
 		"test": "run-p test:*",
 		"lint": "NODE_ENV=test eslint --max-warnings=0 generators scripts src test",
 		"cy:run": "(is-ci && cypress run --browser chrome --record) || cypress run --browser chrome --record false",
+		"deploy": "wrangler pages deploy",
 		"new:post": "yo ./generators/post"
 	},
 	"dependencies": {
@@ -69,7 +70,6 @@
 		"execa": "5.1.1",
 		"gatsby-cypress": "^3.11.0",
 		"generator-license": "^5.7.1",
-		"gh-pages": "^5.0.0",
 		"identity-obj-proxy": "^3.0.0",
 		"is-ci": "^4.1.0",
 		"jest": "^29.5.0",
@@ -84,6 +84,7 @@
 		"semantic-release": "^24.2.5",
 		"slugify": "^1.6.4",
 		"start-server-and-test": "^2.0.0",
+		"wrangler": "^4.21.1",
 		"yeoman-generator": "^5.9.0",
 		"yo": "^5.1.0"
 	},

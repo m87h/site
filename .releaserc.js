@@ -1,5 +1,3 @@
-const { promisify } = require('util');
-const ghpages = require('gh-pages');
 const execa = require('execa');
 
 const headerPartial = `## {{version}}
@@ -37,12 +35,7 @@ module.exports = {
 		}],
 		{
 			prepare: () => execa('npm', ['run', 'build'], { stdio: 'inherit' }),
-			publish: () => promisify(ghpages.publish)('public', {
-				repo: `https://${process.env.GITHUB_TOKEN}@github.com/Flygsand/flygsand.github.io.git`,
-				branch: 'master',
-				silent: true,
-				dotfiles: true
-			}),
+			publish: () => execa('npm', ['run', 'deploy'], { stdio: 'inherit' }),
 		},
 	],
 };
