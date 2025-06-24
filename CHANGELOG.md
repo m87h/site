@@ -1,3 +1,18 @@
+## 1.5.18 (2025-06-24)
+
+
+### Bug Fixes
+
+* **deps:** bump gatsby-plugin-image from 3.11.0 to 3.14.0
+* **deps:** bump gatsby-plugin-offline from 6.11.0 to 6.14.0
+* **deps:** bump gatsby-remark-embed-snippet from 8.11.0 to 8.14.0
+* **deps:** bump gatsby-remark-images from 7.11.0 to 7.14.0
+* **deps:** bump gatsby-remark-prismjs from 7.11.0 to 7.14.0
+* **deps:** bump gatsby-remark-responsive-iframe from 6.11.0 to 6.12.0
+* **deps:** bump gatsby-transformer-sharp from 5.11.0 to 5.14.0
+* **deps:** bump less from 4.1.3 to 4.3.0
+* update socials and contact information
+
 ## 1.5.17 (2023-06-17)
 
 
