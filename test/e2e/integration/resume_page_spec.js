@@ -4,7 +4,7 @@ describe('the resume page', () => {
 	});
 
 	it('has the correct title', () => {
-		cy.title().should('eq', 'Resume | flygsand.dev');
+		cy.title().should('eq', 'Resume | ma.rtin.foo');
 	});
 
 	/*

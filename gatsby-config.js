@@ -2,16 +2,16 @@ const package = require('./package.json');
 
 module.exports = {
 	siteMetadata: {
-		title: 'flygsand.dev',
+		title: 'Martin',
 		version: package.version,
 		description: 'Programming, video games, music, electronics engineering, and all things DIY.',
-		siteUrl: 'https://flygsand.dev',
+		siteUrl: 'https://ma.rtin.foo',
 		author: 'Martin Häger',
-		email: 'martin.haeger@gmail.com',
+		email: 'm@rtin.foo',
 		social: {
-			twitter: 'Flygsand',
-			github: 'Flygsand',
-			replit: 'kvadevack',
+			bluesky: 'ma.rtin.foo',
+			github: 'haegrr',
+			replit: 'haegrr',
 		},
 	},
 	jsxRuntime: 'automatic',
@@ -68,7 +68,7 @@ module.exports = {
 						}
 					`,
 					output: '/rss.xml',
-					title: 'flygsand.dev',
+					title: 'Martin',
 				}],
 			},
 		},
@@ -77,7 +77,7 @@ module.exports = {
 		{
 			resolve: 'gatsby-plugin-manifest',
 			options: {
-				name: 'Flygsand',
+				name: 'Martin',
 				display: 'standalone',
 				start_url: '/',
 				background_color: 'floralwhite',

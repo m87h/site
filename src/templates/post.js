@@ -24,7 +24,7 @@ const PostTemplate = ({ pageContext, data }) => {
 				<p>
 					<em>
 						Enjoyed this post? Got feedback?
-						Consider following <a href={`https://twitter.com/${social.twitter}`}>@{social.twitter}</a> for the latest updates.
+						Consider following <a href={`https://bsky.app/profile/${social.bluesky}`}>@{social.bluesky}</a> for the latest updates.
 					</em>
 				</p>
 				<p>
@@ -48,7 +48,7 @@ export const pageQuery = graphql`
 		site {
 			siteMetadata {
 				social {
-					twitter
+					bluesky
 					replit
 				}
 			}
