@@ -3,9 +3,7 @@
 
 ### Bug Fixes
 
-* **design:** Relayout 404 page
 * **rss:** Correct feed links
-* **seo:** Canonical page links
 
 ## 1.5.19 (2025-06-25)
 
