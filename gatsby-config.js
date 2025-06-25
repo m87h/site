@@ -51,7 +51,7 @@ module.exports = {
             {
               allMarkdownRemark(
                 filter: { fields: { collection: { eq: "posts" } } }
-                sort: { order: DESC, fields: [frontmatter___date] },
+                sort: { frontmatter: { date: DESC } }
               ) {
                 edges {
                   node {
