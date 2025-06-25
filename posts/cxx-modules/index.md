@@ -9,7 +9,7 @@ One of the more exciting proposals for the upcoming C++20 revision is the module
 with C++ - not the least of which is compile times for large code bases. In this post, we will have a brief look at how
 modules can be used with current tooling.<!-- jump -->
 
-Consider the following Hello World program (courtesy of [Wikipedia](https://sv.wikipedia.org/wiki/Hello_World)):
+Consider the following Hello World program:
 
 ```cpp
 #include <iostream>
