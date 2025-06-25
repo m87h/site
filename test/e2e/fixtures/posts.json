@@ -1,7 +1,4 @@
 [
 	{ "slug": "cxx-modules", "hasExample": true },
-	{ "slug": "how-this-site-gets-built", "hasExample": false },
-	{ "slug": "nintendo-switch-virtual-keyboard", "hasExample": true },
-	{ "slug": "playlog-december-2018-grim-fandango-remastered", "hasExample": false },
 	{ "slug": "wrapping-c-libraries-with-smart-pointers", "hasExample": true }
 ]
