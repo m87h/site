@@ -1,4 +1,4 @@
 [
-	{ "slug": "cxx-modules", "hasExample": true },
-	{ "slug": "wrapping-c-libraries-with-smart-pointers", "hasExample": true }
+  { "slug": "cxx-modules", "hasExample": true },
+  { "slug": "wrapping-c-libraries-with-smart-pointers", "hasExample": true }
 ]

@@ -5,30 +5,30 @@ import TagGroup from './TagGroup';
 import { hashCode } from '../../util';
 
 const colors = [
-	'red',
-	'orange',
-	'yellow',
-	'olive',
-	'green',
-	'teal',
-	'blue',
-	'violet',
-	'purple',
-	'pink',
-	'brown',
-	'grey',
-	'black',
+  'red',
+  'orange',
+  'yellow',
+  'olive',
+  'green',
+  'teal',
+  'blue',
+  'violet',
+  'purple',
+  'pink',
+  'brown',
+  'grey',
+  'black',
 ];
 
 const Tag = ({ name, ...props }) => {
-	const nameHash = (hashCode(name) + 2147483647) + 1;
-	return (
-		<Label basic color={colors[nameHash % colors.length]}>#{name}</Label>
-	);
+  const nameHash = (hashCode(name) + 2147483647) + 1;
+  return (
+    <Label basic color={colors[nameHash % colors.length]}>#{name}</Label>
+  );
 };
 
 Tag.propTypes = {
-	name: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
 };
 
 Tag.Group = TagGroup;

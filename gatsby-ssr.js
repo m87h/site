@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const onRenderBody = ({ setHeadComponents }) => {
-	setHeadComponents([
-		<link key="preconnect-fonts" rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-	]);
+  setHeadComponents([
+    <link key="preconnect-fonts" rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  ]);
 };
