@@ -7,6 +7,10 @@ describe('the resume page', () => {
 		cy.title().should('eq', 'Resume | Martin');
 	});
 
+	it('has the correct canonical url', () => {
+		cy.get('head link[rel="canonical"]').should('have.attr', 'href', 'https://ma.rtin.foo/resume/');
+	});
+
 	/*
 	FIXME: This test started timing out after a Cypress upgrade. But only when run via the CLI.
 
