@@ -9,9 +9,9 @@ import Award from '../components/resume/Award';
 import Skill from '../components/resume/Skill';
 import resume from '../resume';
 
-const ResumePage = () => (
+const ResumePage = ({ location }) => (
 	<Layout>
-		<Head title='Resume' />
+		<Head title='Resume' location={location} />
 		<Segment raised>
 			<Basics {...resume.basics} />
 			<Divider />

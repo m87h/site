@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
 
-const Head = ({ description, lang, meta, keywords, title }) => (
+const Head = ({ description, lang, meta, keywords, title, location }) => (
 	<StaticQuery
 		query={graphql`
 			query {
@@ -11,15 +11,24 @@ const Head = ({ description, lang, meta, keywords, title }) => (
 						title
 						description
 						author
+						siteUrl
 					}
 				}
 			}
 		`}
 		render={({ site }) => {
 			const metaDescription = description || site.siteMetadata.description;
+			const canonicalUrl = `${site.siteMetadata.siteUrl}${location.pathname}`;
 			return (
 				<Helmet
 					titleTemplate={`%s | ${site.siteMetadata.title}`}
+					link={[
+						{
+							rel: 'canonical',
+							key: canonicalUrl,
+							href: canonicalUrl,
+						}
+					]}
 				>
 					<html lang={lang} />
 					<title>{title}</title>
@@ -46,7 +55,8 @@ Head.propTypes = {
 	lang: PropTypes.string,
 	meta: PropTypes.array,
 	keywords: PropTypes.arrayOf(PropTypes.string),
-	title: PropTypes.string.isRequired
+	title: PropTypes.string.isRequired,
+	location: PropTypes.object.isRequired,
 };
 
 Head.defaultProps = {

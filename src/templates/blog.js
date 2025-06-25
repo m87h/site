@@ -6,13 +6,13 @@ import Pagination from '../components/Pagination';
 import Head from '../components/Head';
 import Tag from '../components/Tag';
 
-const BlogTemplate = ({ data, pageContext }) => {
+const BlogTemplate = ({ data, pageContext, location }) => {
 	const posts = data.allMarkdownRemark.edges;
 	const { pageNumber, totalPages } = pageContext;
 
 	return (
 		<Layout>
-			<Head title='Blog' />
+			<Head title='Blog' location={location} />
 			{posts.length > 0 ?
 				posts.map(({ node }) => {
 					const { title, tags } = node.frontmatter;

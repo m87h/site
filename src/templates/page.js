@@ -6,13 +6,13 @@ import { capitalizeFirstLetter } from '../util';
 import Layout from '../components/Layout';
 import Head from '../components/Head';
 
-const PageTemplate = ({ pageContext, data }) => {
+const PageTemplate = ({ pageContext, data, location }) => {
 	const page = data.markdownRemark;
 	const title = page.frontmatter.title ? page.frontmatter.title : capitalizeFirstLetter(pageContext.slug.toLowerCase());
 
 	return (
 		<Layout>
-			<Head title={title} />
+			<Head title={title} location={location} />
 			<Segment raised>
 				<Header as='h1'>{title}</Header>
 				<div dangerouslySetInnerHTML={{ __html: page.html }}></div>

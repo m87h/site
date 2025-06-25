@@ -4,14 +4,14 @@ import { Segment, Header, Divider } from 'semantic-ui-react';
 import Layout from '../components/Layout';
 import Head from '../components/Head';
 
-const PostTemplate = ({ pageContext, data }) => {
+const PostTemplate = ({ pageContext, data, location }) => {
 	const post = data.markdownRemark;
 	const { social } = data.site.siteMetadata;
 	const { slug, hasExample } = pageContext;
 
 	return (
 		<Layout>
-			<Head title={post.frontmatter.title} />
+			<Head title={post.frontmatter.title} location={location} />
 			<Segment raised>
 				<Header as='h1'>
 					{post.frontmatter.title}
