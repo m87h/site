@@ -1,3 +1,11 @@
+## 1.5.19 (2025-06-25)
+
+
+### Bug Fixes
+
+* **design:** Relayout 404 page
+* **seo:** Canonical page links
+
 ## 1.5.18 (2025-06-24)
 
 
