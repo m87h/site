@@ -5,9 +5,6 @@ updates:
   directory: /
   schedule:
     interval: daily
-  ignore:
-  - dependency-name: execa
-    versions: [">=6.0.0"]
   commit-message:
     prefix: fix
     prefix-development: chore

@@ -1,5 +1,3 @@
-const execa = require('execa');
-
 const headerPartial = `## {{version}}
 {{~#if title}} "{{title}}"
 {{~/if}}
