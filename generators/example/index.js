@@ -29,7 +29,7 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
       this.templatePath('README.md'),
       this.destinationPath(`examples/${slug}/README.md`),
-      { postUrl: `${siteUrl}/post/${slug}` }
+      { postUrl: `${siteUrl}/post/${slug}/` }
     );
   }
 };
