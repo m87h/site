@@ -1,3 +1,14 @@
+## 1.5.21 (2025-06-25)
+
+
+### Bug Fixes
+
+* **content:** Minor post corrections
+* **content:** Spring cleaning
+* **deps:** bump gatsby-plugin-less from 7.11.0 to 7.14.0
+* **examples:** Add trailing slash to post links
+* **misc:** Tabs to spaces 2: Electric Boogaloo
+
 ## 1.5.20 (2025-06-25)
 
 
