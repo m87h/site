@@ -5,6 +5,11 @@ updates:
   directory: /
   schedule:
     interval: daily
+  ignore:
+  - dependency-name: react
+    versions: [">=19.0.0"]
+  - dependency-name: react-dom
+    versions: [">=19.0.0"]
   commit-message:
     prefix: fix
     prefix-development: chore
