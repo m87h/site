@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
 
-const Head = ({ description, lang, meta, keywords, title, location }) => (
+const Head = ({ description, lang, meta, keywords, noindex, nofollow, title, location }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -41,6 +41,7 @@ const Head = ({ description, lang, meta, keywords, title, location }) => (
           <meta name="twitter:title" content={title} />
           <meta name="twitter:description" content={metaDescription} />
           {keywords.length > 0 && <meta name="keywords" content={keywords.join(', ')} />}
+          {(noindex || nofollow) && <meta name="robots" content={[noindex && 'noindex', nofollow && 'nofollow'].filter(Boolean).join(', ')} />}
           {meta.map(({ name, content }, i) => (
             <meta key={i} name={name} content={content} />
           ))}
@@ -55,6 +56,8 @@ Head.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.array,
   keywords: PropTypes.arrayOf(PropTypes.string),
+  noindex: PropTypes.bool,
+  nofollow: PropTypes.bool,
   title: PropTypes.string.isRequired,
   location: PropTypes.object.isRequired,
 };
@@ -62,7 +65,9 @@ Head.propTypes = {
 Head.defaultProps = {
   lang: 'en',
   meta: [],
-  keywords: []
+  keywords: [],
+  noindex: false,
+  nofollow: false,
 };
 
 export default Head;

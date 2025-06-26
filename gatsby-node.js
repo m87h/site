@@ -112,9 +112,49 @@ function createPosts({ graphql, actions }) {
   });
 }
 
+function createTags({ graphql, actions }) {
+  const { createPage } = actions;
+
+  return new Promise((resolve, reject) => {
+    resolve(
+      graphql(`
+        {
+          allMarkdownRemark {
+            tags: group(field: { frontmatter: { tags: SELECT } }) {
+              name: fieldValue
+              postCount: totalCount
+            }
+          }
+        }`
+      ).then(({ data }) => {
+        const { tags } = data.allMarkdownRemark;
+        const postsPerPage = 5;
+
+        for (let tag of tags) {
+          const totalPages = Math.ceil(tag.postCount / postsPerPage);
+          for (let i = 0; i < totalPages; i++) {
+            createPage({
+              path: (i === 0 ? `/tag/${tag.name}` : `/tag/${tag.name}/${i + 1}`),
+              component: `${__dirname}/src/templates/tag.js`,
+              context: {
+                limit: postsPerPage,
+                skip: i * postsPerPage,
+                pageNumber: i + 1,
+                totalPages,
+                tag: tag.name,
+              }
+            });
+          }
+        }
+      })
+    );
+  });
+}
+
 exports.createPages = helpers => {
   return Promise.all([
     createPages(helpers),
-    createPosts(helpers)
+    createPosts(helpers),
+    createTags(helpers),
   ]);
 };

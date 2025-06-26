@@ -4,24 +4,27 @@ import Layout from '../components/Layout';
 import Head from '../components/Head';
 import PostList from '../components/PostList';
 
-const BlogTemplate = ({ data, pageContext, location }) => {
+const TagTemplate = ({ data, pageContext, location }) => {
   const posts = data.allMarkdownRemark.edges;
-  const { pageNumber, totalPages } = pageContext;
+  const { pageNumber, totalPages, tag } = pageContext;
 
   return (
     <Layout>
-      <Head title='Blog' location={location} />
+      <Head title={`Posts tagged "${tag}"`} location={location} noindex nofollow />
       <PostList posts={posts} pageNumber={pageNumber} totalPages={totalPages} />
     </Layout>
   );
 };
 
-export default BlogTemplate;
+export default TagTemplate;
 
 export const pageQuery = graphql`
-  query($skip: Int!, $limit: Int!) {
+  query($skip: Int!, $limit: Int!, $tag: String!) {
     allMarkdownRemark(
-      filter: { fields: { collection: { eq: "posts" } } }
+      filter: {
+        fields: { collection: { eq: "posts" } }
+        frontmatter: { tags: { in: [ $tag ] } }
+      }
       sort: { frontmatter: { date: DESC } }
       limit: $limit
       skip: $skip

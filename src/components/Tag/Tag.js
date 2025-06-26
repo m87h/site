@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { Label } from 'semantic-ui-react';
+import { Link } from 'gatsby';
 
 import TagGroup from './TagGroup';
 import { hashCode } from '../../util';
@@ -20,10 +21,10 @@ const colors = [
   'black',
 ];
 
-const Tag = ({ name, ...props }) => {
+const Tag = ({ name }) => {
   const nameHash = (hashCode(name) + 2147483647) + 1;
   return (
-    <Label basic color={colors[nameHash % colors.length]}>#{name}</Label>
+    <Label as={Link} to={`/tag/${name}`} basic color={colors[nameHash % colors.length]}>#{name}</Label>
   );
 };
 
