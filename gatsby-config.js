@@ -159,7 +159,8 @@ module.exports = {
       resolve: 'gatsby-plugin-sitemap',
       options: {
         excludes: [
-          '/tag/**'
+          '/changelog',
+          '/tag/**',
         ],
       },
     },
