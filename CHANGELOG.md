@@ -1,3 +1,10 @@
+## 1.6.1 (2025-06-27)
+
+
+### Bug Fixes
+
+* **seo:** nofollow tag and changelog links
+
 ## 1.6.0 (2025-06-27)
 
 
