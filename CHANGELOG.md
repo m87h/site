@@ -1,3 +1,11 @@
+## 1.6.2 (2025-06-27)
+
+
+### Bug Fixes
+
+* **css:** Prevent layout displacement due to scrollbar
+* **resume:** Better prop types
+
 ## 1.6.1 (2025-06-27)
 
 
