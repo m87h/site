@@ -1,3 +1,31 @@
+## 1.6.0 (2025-06-27)
+
+
+### Bug Fixes
+
+* **content:** Adapt deprecated GraphQL query
+* **deps:** bump gatsby from 5.11.0 to 5.14.5
+* **deps:** bump gatsby-plugin-feed from 5.11.0 to 5.14.0
+* **deps:** bump gatsby-plugin-manifest from 5.11.0 to 5.14.0
+* **deps:** bump gatsby-plugin-react-helmet from 6.11.0 to 6.14.0
+* **deps:** bump gatsby-plugin-sharp from 5.11.0 to 5.14.0
+* **deps:** bump gatsby-plugin-sitemap from 6.11.0 to 6.14.0
+* **deps:** bump gatsby-remark-copy-linked-files from 6.11.0 to 6.14.0
+* **deps:** bump gatsby-remark-responsive-iframe from 6.12.0 to 6.14.0
+* **deps:** bump gatsby-source-filesystem from 5.11.0 to 5.14.0
+* **deps:** bump gatsby-transformer-remark from 6.11.0 to 6.14.0
+* **deps:** bump mermaid from 10.9.3 to 11.7.0
+* **deps:** bump moment from 2.29.4 to 2.30.1
+* **deps:** bump react from 18.2.0 to 18.3.1
+* **deps:** bump react-dom from 18.2.0 to 18.3.1
+* **deps:** bump semantic-ui-react from 2.1.4 to 2.1.5
+* **seo:** don't index changelog
+
+
+### Features
+
+* Tag pages
+
 ## 1.5.21 (2025-06-25)
 
 
