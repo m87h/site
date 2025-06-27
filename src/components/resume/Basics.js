@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Header, Grid, Icon } from 'semantic-ui-react';
 
-const Basics = ({ name, label, email, phone, location: { address, postalCode, city, countryCode }, profiles }) => {
+const Basics = ({ name, label, email, phone, location: { city } }) => {
   return (
     <Grid celled='internally' columns={2} className='compact'>
       <Grid.Column style={{ padding: 0 }}>
@@ -26,19 +26,13 @@ const Basics = ({ name, label, email, phone, location: { address, postalCode, ci
 };
 
 Basics.propTypes = {
+  name: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
   phone: PropTypes.string.isRequired,
   location: PropTypes.shape({
-    address: PropTypes.string.isRequired,
-    postalCode: PropTypes.string.isRequired,
     city: PropTypes.string.isRequired,
-    countryCode: PropTypes.string.isRequired,
-  }),
-  profiles: PropTypes.arrayOf(PropTypes.shape({
-    network: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired,
-    username: PropTypes.string,
-  })),
+  }).isRequired,
 };
 
 export default Basics;
