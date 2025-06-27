@@ -24,7 +24,7 @@ const colors = [
 const Tag = ({ name }) => {
   const nameHash = (hashCode(name) + 2147483647) + 1;
   return (
-    <Label as={Link} to={`/tag/${name}`} basic color={colors[nameHash % colors.length]}>#{name}</Label>
+    <Label as={Link} to={`/tag/${name}`} basic color={colors[nameHash % colors.length]} rel='nofollow'>#{name}</Label>
   );
 };
 

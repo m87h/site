@@ -20,7 +20,7 @@ const Footer = ({ ...props }) => (
         <Segment basic {...props}>
           <p>&copy; {author}, 2018 - {new Date().getFullYear()}.</p>
           <p>
-            v{version} (<a href='/changelog'>changelog</a>). Built with <a href="https://graphql.org/">GraphQL</a>
+            v{version} (<a href='/changelog' rel='nofollow'>changelog</a>). Built with <a href="https://graphql.org/">GraphQL</a>
             , <a href="https://reactjs.org/">React</a> and <a href="https://semantic-ui.com/">Semantic UI</a>.
           </p>
         </Segment>
